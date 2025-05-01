@@ -1,0 +1,380 @@
+.bhuvan-section {
+    background-image: url('./images/bhuvanbg.png');
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: -175px;
+}
+
+.bhuvan-lebestow-heading {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FF8E00;
+    margin-left: -600px;
+    padding-top: 50px;
+}
+
+.bhuvan-lebestow-sub-heading {
+    font-size: 64px;
+    font-weight: 700;
+    color: #5C5C5C;
+    margin-left: -600px;
+}
+
+.bhuvan-lebestow-sub-heading-two {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+}
+
+.bhuvan-lebestow-location {
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    margin-left: -600px;
+    padding-top: 40px;
+}
+
+.bhuvan-lebestow-rooms {
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: -600px;
+    padding-top: 40px;
+}
+
+.floor-rooms {
+    background-color: #FF8E00;
+}
+
+.explorefloors-section {
+    background-color: black;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    color: #fff;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.explorefloors-head {
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.explorefloors-body {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.select-section {
+    background-color: #fff;
+    box-shadow:0 4px 20px #FF8600;
+    width: 800px;
+    border-radius: 40px;
+    padding: 6px 10px;
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+.select-floor {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    width: 400px;
+}
+
+.filter {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    background-color: #DEDEDE;
+    padding: 6px 25px;
+    border-radius: 25px;
+    border: #DEDEDE;
+}
+
+.filter:hover {
+    color: black;
+    background-color: #DEDEDE;
+    border: #DEDEDE;
+}
+
+.fliter-search {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    background-color:#FF8600;
+    padding: 6px 25px;
+    border-radius: 25px;
+    border: #FF8600;
+}
+
+.fliter-search:hover {
+    color: black;
+    background-color:#FF8600;
+    border: #FF8600;
+}
+
+.vertical-scroll-wrapper {
+    max-height: 400px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+}
+  
+  /* Optional custom scrollbar styling */
+.vertical-scroll-wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.vertical-scroll-wrapper::-webkit-scrollbar-track {
+    background: #fff;
+}
+  
+.vertical-scroll-wrapper::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 4px;
+}
+  
+.vertical-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+  
+.table-titles th,
+.table-body td {
+    white-space: nowrap;
+    text-align: center;
+}
+  
+.table-titles {
+    font-size: 24px;
+    font-weight: 400;
+}
+  
+.table-body {
+    font-size: 24px;
+    font-weight: 400;
+}
+  
+.table {
+    border-collapse: collapse;
+}
+
+.photo-custom {
+    background-color: #FF8600;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    border: #FF8600;
+}
+
+.photo-custom:hover {
+    background-color: #FF8600;
+    color: #000;
+    border: #FF8600;
+}
+
+.photo-custom:focus,
+.photo-custom:active,
+.photo-custom:focus:active {
+    box-shadow: none;
+    outline: none;
+    background-color: #FF8600;
+    color: #000;
+    border: #FF8600;
+}
+  
+.meal-card {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 10px solid #fff;
+    box-shadow:0 4px 5px rgba(0, 0, 0, 0.5) !important;
+}
+  
+.dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #FF8E00;
+}
+
+.food-menu-heading {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #FF8600, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.foodmenu-heading {
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #FF8E00;
+}
+
+.foodmenu-body {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #555E5D;
+}
+
+.foodmenu-list {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #555E5D;
+    border-bottom: none;
+}
+
+.foodmenu-img {
+    border-radius: 0;
+}
+
+.foodmenu-custom {
+    background-color: #FF8E00; 
+    color: white;
+    border: #FF8E00;
+    border-radius: 80px;
+    padding: 6px 20px;
+}
+
+.foodmenu-custom:hover {
+    background-color: #FF8E00; 
+    color: white;
+    border: #FF8E00;
+}
+  
+.foodmenu-outline-custom {
+    border: 1px solid #FF8E00;
+    color: #FF8E00;
+    background-color: transparent;
+    border-radius: 80px;
+    padding: 6px 20px;
+}
+  
+.foodmenu-outline-custom:hover {
+    background-color: #FF8E00;
+    color: white;
+    border: #FF8E00;
+}
+.foodmenu-custom:focus,
+.foodmenu-custom:active,
+.foodmenu-custom:focus:active,
+.foodmenu-outline-custom:focus,
+.foodmenu-outline-custom:active,
+.foodmenu-outline-custom:focus:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #FF8E00 !important; 
+  color: white !important;
+  border-color: #FF8E00 !important;
+}
+
+.rentingterms-heading {
+    font-size: 64px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #FF8E00, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 10px;
+}
+
+.renting-card {
+    background-color: #FFC67F80;
+    width: 316px;
+    height: 185px;
+    border: none;
+    border-radius: 10px;
+}
+
+.propertyrules-heading {
+    font-size: 64px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #FF8E00, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.ourvisuals-heading {
+    font-size: 64px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #FF8E00, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.similar-properties {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+}
+
+.airacasa-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+.airacasa-title-one {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF8E00;
+}
+
+.airacasa-title-two {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5C5C5C;
+}
+
+.airacasa-details {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #FF8600;
+    border: #FF8600;
+    padding: 6px 190px;
+}
+
+.airacasa-details:hover {
+    background-color: #FF8600;
+    color: #fff;
+}
+
+.airacasa-card {
+    border: #FF8600;
+    box-shadow:0 4px 20px #FF8600;
+    width: 490px;
+    height: 480px;
+} 
+
+.map-responsive iframe {
+    height: 350px;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%) !important;
+    margin-bottom: -50px;
+}
+  

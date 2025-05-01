@@ -1,0 +1,62 @@
+.talk-to-our-team {
+    background-image: url('./images/contactbg.png');
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 390px;
+    margin-top: -175px;
+    border-radius: 50px;
+}
+
+.talk-to-our-team-one {
+    font-size: 46px;
+    font-weight: 600;
+    color: #000;
+    padding-top: 100px;
+}
+
+.talk-to-our-team-two {
+    font-size: 46px;
+    font-weight: 600;
+    color: #FF8600;
+}
+
+.form-section {
+    height: 650px;
+    width: 976px;
+    background-color: #EBEBEB80;
+    margin-left: 150px;
+    padding: 80px;
+}
+
+.cafe-form-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    padding-left: 10px;
+}
+
+.cafe-button {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #FF8600;
+    border: #FF8600;
+    list-style: none;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.cafe-button-custom {
+    padding-top: 80px;
+    padding-left: 650px;
+}

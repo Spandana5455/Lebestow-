@@ -1,0 +1,38 @@
+.why-choose-lebestow-section {
+    background-color: #FFE2C675;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+}
+
+.why-choose-lebestow-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color:  #F19B4C;
+    padding-top: 60px;
+}
+
+.why-choose-lebestow-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #F19B4C, #555E5D);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.why-choose-lebestow-head {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F19B4C;
+}
+.why-choose-lebestow-body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.whylebestowimage-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 15px;
+    padding-left: 120px;
+}

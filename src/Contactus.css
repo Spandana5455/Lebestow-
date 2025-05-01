@@ -1,0 +1,93 @@
+.contact-container {
+    padding: 3rem 1rem;
+}
+ 
+.contact-heading-lets {
+    font-size: 40px;
+    font-weight: 700;
+    color: #F19B4C;
+}
+.contact-heading {
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #F19B4C, #555E5D);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.contact-left {
+    background: url('./images/connect.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 647px;
+    width: 491px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+  
+.contact-form {
+    margin-left: -40px;
+}
+  
+.info-item {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.contact-button-custom {
+    padding-top: 120px;
+    padding-left: 280px;
+}
+
+.contact-button {
+    background-color: #EF8C33;
+    border: #EF8C33;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    width: 150px;
+    border-radius: 5px;
+    width: 150px !important;
+}
+
+.contact-button:hover {
+    background-color: #EF8C33;
+    color: white;
+}
+.vertical-divider {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    bottom: 0%;
+    width: 0;
+    height: 671.0000000000006px;
+    border-left: 1px solid #000000;
+    transform: translateX(-50%);
+}
+  
+.form-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+} 
+
+.contact-info-heading {
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.info-item {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 40px;
+}

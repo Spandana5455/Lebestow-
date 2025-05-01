@@ -1,0 +1,268 @@
+.coliving-section {
+    background-color: black;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: -175px;
+}
+
+.coliving-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF8600;
+    text-align: start;
+    padding-top: 150px;
+    line-height: 60px;
+    padding-left: 40px;
+}
+
+.coliving-subheading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.coliving-body {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    text-align: start;
+    padding-right: 80px;
+    padding-left: 40px;
+    text-transform: capitalize;
+}
+
+.colivingimg1 {
+    padding-top: 50px;
+    margin-left: 90px;
+}
+
+.how-coliving-works-section {
+    background-color: #FF8600;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.how-coliving-works-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.how-coliving-works-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.step-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    padding-left: 10px;
+}
+
+.step-body {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.arrow-image {
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+
+.space-fits-you-heading-one {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF8E00;
+}
+
+.space-fits-you-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #FF8E00, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.space-fits-you-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.menstay-heading {
+    font-size: 42px;
+    font-weight: 600;
+    color: #FF8600;
+    text-align: start;
+    padding-top: 150px;
+}
+
+.womenstay-heading {
+    font-size: 42px;
+    font-weight: 600;
+    color: #FF8600;
+    text-align: end;
+    padding-top: 150px;
+}
+
+.colivingstay-heading {
+    font-size: 42px;
+    font-weight: 600;
+    color: #FF8600;
+    text-align: start;
+    padding-top: 150px;
+}
+
+.menstay-body {
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    text-align: start;
+}
+
+.womenstay-body {
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    text-align: end;
+}
+
+.colivingstay-body {
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    text-align: start;
+}
+
+.menstay-img {
+    margin-left: 150px;
+}
+
+.womenstay-img {
+    margin-left: -150px;
+}
+
+.coliving-img {
+    margin-left: 150px;
+}
+
+.available-heading {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+}
+
+.airabhuvan-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+.airabhuvan-title-one {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF8E00;
+}
+
+.airabhuvan-title-two {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5C5C5C;
+}
+
+.airabhuvan-details {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #FF8600;
+    border: #FF8600;
+    padding: 6px 190px;
+}
+
+.airabhuvan-details:hover {
+    background-color: #FF8600;
+    color: #fff;
+}
+
+.airabhuvan-card {
+    border: #FF8600;
+    box-shadow:0 4px 20px #FF8600;
+    width: 490px;
+    height: 480px;
+}
+
+.lifeatlebestow-section {
+    background-color: #FF8600;
+    height: 684px;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.lifeatlebestow-heading {
+    font-size: 64px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 90px;
+}
+
+.lifeatlebestow-head {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.lifeatlebestow-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.lifeatlebestow-image {
+    padding-top: 20px;
+    height: 400px;
+}

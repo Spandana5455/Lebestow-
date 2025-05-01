@@ -1,0 +1,76 @@
+.teamsection-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #F19B4C;
+}
+
+.teamsection-heading-two {
+    font-size: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #F19B4C, #555E5D);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.teamsection-body {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+.team-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+    padding-top: 50px;
+}
+  
+.member {
+    position: absolute;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    text-align: center;
+    width: 400px;
+    opacity: 0.6;
+}
+  
+.member-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.member-name {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.member-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.member-quote {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.member.left {
+    transform: translateX(-500px) scale(0.8);
+    z-index: 1;
+}
+  
+.member.center {
+    transform: translateX(0px) scale(1.1);
+    opacity: 1;
+    z-index: 2;
+}
+  
+.member.right {
+    transform: translateX(500px) scale(0.8);
+    z-index: 1;
+}

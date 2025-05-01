@@ -1,0 +1,49 @@
+.our-services {
+    font-size: 16px;
+    font-weight: 500 !important;
+    color: white;
+    background-color: #F19B4C;
+    border-radius: 0;
+    margin-left: -1300px;
+}
+
+.our-services-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFC67F;
+}
+.our-services-heading {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #FFC67F, #555E5D);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.our-services-body {
+    font-size: 24px;
+    font-weight: 400;
+    color:#555E5D;
+}
+
+.row-gap {
+    row-gap: 60px;
+}
+.ourservices-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.our-services-note {
+    font-size: 24px;
+    font-weight: 400;
+    color: #F19B4C;
+}
+
+.our-services-note-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}

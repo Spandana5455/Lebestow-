@@ -1,0 +1,42 @@
+.footer-section {
+    background-color: black;
+}
+.footerlebestow-heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-hr-custom {
+    border: 1px solid #FFFFFF;
+}
+
+.footer-heading {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+  
+.footer-heading::after {
+    content: '';
+    display: block;
+    width: auto;
+    height: 2px;
+    background:#FF8E00;
+    margin-top: 5px;
+}
+  
+.footer-link {
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+  
+.footer-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+  

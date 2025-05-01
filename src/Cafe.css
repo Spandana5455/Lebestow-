@@ -1,0 +1,309 @@
+.food-items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.food-item {
+    width: 190px;
+    padding-top: 30px;
+}
+  
+.food-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.lebestowcafe-heading1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #FF8600;
+}
+
+.lebestowcafe-body {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+}
+
+.hr-custom {
+    border: 1px solid #FF8600;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+}
+
+.lebestow-heading2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #F19B4C;
+}
+
+.lebestow-heading2-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #F19B4C, #555E5D);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.slide-card {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0px;
+}
+  
+.image-container {
+    width: 100%;
+    transition: all 0.5s ease;
+    flex-shrink: 0;
+}
+  
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+  
+.text-container {
+    width: 0;
+    padding: 0;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    background-color: #FFB674;
+    color: #000;
+}
+
+.cafe-item-title {
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+  
+.slide-card:hover .image-container {
+    width: 50%;
+}
+  
+.slide-card:hover .text-container {
+    width: 50%;
+    opacity: 1;
+    padding: 5px 10px; 
+}
+  
+.cafeteria-section {
+    background-color: #FF8E00;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+}
+
+.lebestow-heading3 {
+    font-size: 69.22px;
+    font-weight: 500;
+    font-style: italic;
+    color: #000;
+}
+
+.lebestow-heading4 {
+    font-size: 69.22px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    padding-left: 180px;
+}
+
+.lebestow-cafeteria-body {
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+}
+
+.lebestow-menu-button {
+    background-color: #000000BF;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid #000000BF;
+    padding: 8px 25px;
+}
+
+.lebestow-view-menu-button {
+    padding-top: 20px;
+    padding-left: 580px;
+}
+
+.offer-section {
+    background-color: #EBEBEB;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+}
+
+.offer-heading {
+    font-size: 64px;
+    font-weight: 500;
+    font-style: italic;
+    color: #00000099;
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.offer-subheading {
+    font-size: 96px;
+    font-weight: 500;
+    font-style: italic;
+    color: #000;
+    padding-left: 105px;
+}
+
+.offer-percentage {
+    font-size: 110px;
+    font-weight: 600;
+    color: #AE0000;
+    padding-left: 140px;
+}
+
+.offer-percentage-off {
+    font-size: 110px;
+    font-weight: 600;
+    color: white;
+}
+
+.offer-note {
+    background-color: #000000;
+    opacity: 75%;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 10px 30px;
+    width: 525px;
+    list-style: none;
+}
+
+.offer-note-custom {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.catering-section {
+    background-color: #FF860040;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    height: 700px;
+}
+  
+.catering-heading {
+    color: #F19B4C;
+    font-size: 40px;
+    font-weight: 600;
+}
+  
+.catering-card {
+    background-color: #fff;
+    border-radius: 30px;
+    height: 500px;
+    max-width: 1000px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-top: 100px;
+}
+  
+.category-tag {
+    display: inline-block;
+    border: 1px dashed #FF8600;
+    font-size: 24px;
+    font-weight: 400 !important;
+    padding: 6px 35px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #FF8600;
+    margin-bottom: 120px !important;
+}
+
+.catering-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    margin-top: -80px;
+    padding-left: 30px;
+}
+
+.catering-description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    padding-left: 30px;
+}
+
+.catering-image {
+    padding-left: 100px;
+}
+  
+.custom-btn-contact {
+    padding-left: 30px;
+}
+
+.custom-btn {
+    background-color: #FF8600;
+    border: #FF8600;
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.custom-btn:hover {
+    background-color: #FF8600;
+    border: #FF8600;
+    color: white;
+}
+
+.arrow-button {
+    width: 50px;
+    height: 50px;
+    background-color: #FF7B16;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+  
+.left-arrow {
+    left: 10px;
+}
+  
+.right-arrow {
+    right: 10px;
+}
+  
+.cafeteria-heading {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(#F08E37, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.gallery2-img {
+    height: 84%;
+    border-radius: 30px;
+}
+  
