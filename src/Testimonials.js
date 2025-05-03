@@ -53,7 +53,7 @@ const Testimonials = () => {
       <Container>
         <h2 className="text-center mb-5 testimonials-head">Hear <span className="testimonials-head-two">From Our Residents</span></h2>
 
-        <Carousel interval={5000} indicators={false} controls={true}>
+        <Carousel interval={3000} indicators={false} controls={true}>
           {groupedTestimonials.map((group, idx) => (
             <Carousel.Item key={idx}>
               <Row className="justify-content-center">
@@ -72,4 +72,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-

@@ -61,3 +61,101 @@
     color: #000;
     padding-bottom: 10px;
 }
+
+
+@media (max-width: 1199px) {
+    .terms-box {
+      padding: 2rem;
+      font-size: 0.95rem;
+    }
+  
+    .terms-logo-bg {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .terms-heading {
+      font-size: 36px;
+    }
+  
+    .divider {
+      width: 100%;
+    }
+  
+    .terms-body {
+      font-size: 22px;
+    }
+}
+  
+
+@media (max-width: 991px) {
+    .terms-box {
+      padding: 1.5rem;
+    }
+  
+    .terms-logo-bg {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .terms-heading {
+      font-size: 32px;
+    }
+  
+    .divider {
+      width: 80%;
+    }
+  
+    .terms-body {
+      font-size: 20px;
+    }
+}
+  
+  
+@media (max-width: 767px) {
+    .terms-box {
+      padding: 1rem;
+    }
+  
+    .terms-logo-bg {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .terms-heading {
+      font-size: 28px;
+    }
+  
+    .divider {
+      width: 60%;
+    }
+  
+    .terms-body {
+      font-size: 18px;
+    }
+}
+  
+ 
+@media (max-width: 575px) {
+    .terms-box {
+      padding: 1rem;
+    }
+  
+    .terms-logo-bg {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .terms-heading {
+      font-size: 24px;
+    }
+  
+    .divider {
+      width: 50%;
+    }
+  
+    .terms-body {
+      font-size: 16px;
+    }
+}
+  

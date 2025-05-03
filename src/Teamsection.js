@@ -43,7 +43,7 @@ const Teamsection = () => {
         Our team is passionate about creating safe, social, and sustainable living environments.
       </p>
 
-      <Container className='pt-4'>
+      <Container className='pt-4 pb-5'>
         <Row className="justify-content-center position-relative">
           <div className="team-wrapper">
             {teamMembers.map((member, index) => (
@@ -65,9 +65,6 @@ const Teamsection = () => {
           </div>
         </Row>
       </Container>
-      <br/>
-      <br/>
-      <br/>
       <br/>
       <br/>
       <br/>

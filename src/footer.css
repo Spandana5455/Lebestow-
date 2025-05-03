@@ -39,4 +39,160 @@
     color: #fff;
     text-decoration: none;
 }
+.footer-social-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  
+
+/* ≥1284px - Default styles assumed */
+
+/* 1199px - 1283px */
+@media (max-width: 1283px) {
+    .footerlebestow-heading {
+      font-size: 36px;
+    }
+    .footer-heading {
+      font-size: 17px;
+    }
+  }
+  
+  /* 991px - 1199px */
+  @media (max-width: 1199px) {
+    .footerlebestow-heading {
+      font-size: 34px;
+    }
+  
+    .footer-heading {
+      font-size: 16px;
+    }
+  
+    .footer-link {
+      font-size: 15px;
+    }
+  }
+  
+  /* 800px - 990px */
+  @media (max-width: 990px) {
+    .footerlebestow-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .footer-heading {
+      text-align: center;
+    }
+  
+    .footer-link {
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .footer-section .row {
+      justify-content: center;
+    }
+  
+    .footer-section .col-md-2,
+    .footer-section .col-md-3 {
+      text-align: center;
+    }
+  }
+  
+  /* 768px - 799px */
+  @media (max-width: 799px) {
+    .footerlebestow-heading {
+      font-size: 28px;
+    }
+  
+    .footer-heading {
+      font-size: 16px;
+    }
+  
+    .footer-link {
+      font-size: 14px;
+    }
+  
+    .footer-section .d-flex.justify-content-center {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* 572px - 767px */
+  @media (max-width: 767px) {
+    .footerlebestow-heading {
+      font-size: 26px;
+    }
+  
+    .footer-heading {
+      font-size: 15px;
+    }
+  
+    .footer-link {
+      font-size: 14px;
+    }
+  
+    .footer-section .row > div {
+      margin-bottom: 20px;
+    }
+    .footer-social-icon {
+        width: 20px;
+        height: 20px;
+        padding-left: 255px;
+        padding-top: 20px;
+    }
+    
+    .footer-section .d-flex.justify-content-center.justify-content-md-start {
+        justify-content: center !important;
+    }
+  }
+  
+  /* 480px - 571px */
+  @media (max-width: 571px) {
+    .footerlebestow-heading {
+      font-size: 24px;
+    }
+  
+    .footer-heading {
+      font-size: 14px;
+    }
+  
+    .footer-link {
+      font-size: 13px;
+    }
+  
+    .footer-section img {
+      height: 70px !important;
+    }
+  }
+  
+  /* 380px - 479px */
+  @media (max-width: 479px) {
+    .footerlebestow-heading {
+      font-size: 22px;
+    }
+  
+    .footer-heading {
+      font-size: 13px;
+    }
+  
+    .footer-link {
+      font-size: 12px;
+    }
+  
+    .footer-section img {
+      height: 60px !important;
+    }
+    .footer-social-icon {
+        width: 18px;
+        height: 18px;
+        padding-left: 180px;
+        padding-top: 20px;
+    }
+    
+    .footer-section .d-flex.justify-content-center.justify-content-md-start {
+        gap: 10px;
+    }
+  }
   

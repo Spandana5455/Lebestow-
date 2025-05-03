@@ -110,3 +110,123 @@ body {
     padding-bottom: 50px;
     margin-top: -50px;
 }
+
+
+
+@media (max-width: 1199px) {
+    .gymsection-item,
+    .gymsection-text {
+      padding-left: 100px;
+      font-size: 28px;
+    }
+  
+    .why-work-out-section-heading {
+      font-size: 48px;
+    }
+  
+    .card1 {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .gymicon {
+      height: 100px;
+      width: 100px;
+    }
+  
+    .gym-contact-us {
+      padding-left: 50px;
+    }
+    .gymimage {
+        width: 95%;
+        margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .gym-wrapper {
+      margin-top: -100px;
+    }
+  
+    .gym-section {
+      height: auto;
+      padding: 50px 20px;
+      flex-direction: column;
+    }
+  
+    .gymsection-item,
+    .gymsection-text {
+      padding-left: 0;
+      margin-top: 0;
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .why-work-out-section-heading {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .why-work-out-body,
+    .why-work-out-head {
+      padding: 10px;
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .card1 {
+      width: 90%;
+      margin: 10px auto;
+      height: auto;
+    }
+  
+    .gymicon {
+      height: 80px;
+      width: 80px;
+      margin: 0 auto;
+    }
+  
+    .gymimage {
+      padding-left: 0;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .gymcontactus {
+      font-size: 16px;
+      padding: 6px 16px;
+    }
+  
+    .gym-contact-us {
+      padding-left: 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .gymimage {
+        width: 75%;
+        margin-left: 30px;
+    }
+  }
+
+  
+  @media (max-width: 479px) {
+    .gymsection-item,
+    .gymsection-text {
+      font-size: 18px;
+    }
+  
+    .why-work-out-section-heading {
+      font-size: 28px;
+    }
+  
+    .gymcontactus {
+      width: 100%;
+    }
+
+    .gymimage {
+        width: 75%;
+        margin-left: 30px;
+    }
+  }
+  
+  

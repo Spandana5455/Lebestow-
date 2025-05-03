@@ -8,16 +8,27 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
+    setOpenDropdown(null); 
+  };
+
+  const handleDropdownToggle = (menu) => {
+    setOpenDropdown(prev => (prev === menu ? null : menu));
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+    setOpenDropdown(null);
   };
   return (
     <div className="navbar-section">
       <nav className="navbar navbar-expand-lg container-fluid">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img src={logo} className="logo-image" alt="lebestow-logo"/>
+            <img src={logo} className="logo-image" alt="lebestow-logo" />
           </Link>
           <button
             className="navbar-toggler"
@@ -31,31 +42,49 @@ const Navbar = () => {
           <div className={`collapse navbar-collapse justify-content-end ${isOpen ? 'show' : ''}`} id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" to="/" onClick={() => setIsOpen(false)}>Home</Link>
+                <Link className="nav-link" to="/" onClick={closeMenu}>Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about" onClick={() => setIsOpen(false)}>About Us</Link>
+                <Link className="nav-link" to="/about" onClick={closeMenu}>About Us</Link>
               </li>
-              <li className="nav-item dropdown">
-                <span className="nav-link dropdown-toggle" id="exploreDropdown" role="button">Explore Properties</span>
-                <ul className="dropdown-menu" aria-labelledby="exploreDropdown">
-                  <li><Link className="dropdown-item" to="/explore/aira" onClick={() => setIsOpen(false)}>Aira</Link></li>
-                  <li><Link className="dropdown-item" to="/explore/bhuvan" onClick={() => setIsOpen(false)}>Bhuvan</Link></li>
-                  <li><Link className="dropdown-item" to="/explore/casa" onClick={() => setIsOpen(false)}>Casa</Link></li>
-                  <li><Link className="dropdown-item" to="/explore/d" onClick={() => setIsOpen(false)}>D</Link></li>
+
+              {/* Explore Dropdown */}
+              <li className={`nav-item dropdown ${openDropdown === 'explore' ? 'show' : ''}`}>
+                <span
+                  className="nav-link dropdown-toggle"
+                  onClick={() => handleDropdownToggle('explore')}
+                  role="button"
+                >
+                  Explore Properties
+                </span>
+                <ul className={`dropdown-menu ${openDropdown === 'explore' ? 'show' : ''}`}>
+                  <li><Link className="dropdown-item" to="/explore/aira" onClick={closeMenu}>Co-living Aira</Link></li>
+                  <li><Link className="dropdown-item" to="/explore/bhuvan" onClick={closeMenu}>Co-living Bhuvan</Link></li>
+                  <li><Link className="dropdown-item" to="/explore/casa" onClick={closeMenu}>Casa</Link></li>
+                  <li><Link className="dropdown-item" to="/explore/d" onClick={closeMenu}>D</Link></li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
-                <span className="nav-link dropdown-toggle" id="zonesDropdown" role="button">Zones</span>
-                <ul className="dropdown-menu" aria-labelledby="zonesDropdown">
-                  <li><Link className="dropdown-item" to="/zones/co-living" onClick={() => setIsOpen(false)}>Co-living</Link></li>
-                  <li><Link className="dropdown-item" to="/zones/cafe" onClick={() => setIsOpen(false)}>Cafe</Link></li>
-                  <li><Link className="dropdown-item" to="/zones/gym" onClick={() => setIsOpen(false)}>Gym</Link></li>
-                  <li><Link className="dropdown-item" to="/zones/gaming" onClick={() => setIsOpen(false)}>Gaming</Link></li>
+
+              {/* Zones Dropdown */}
+              <li className={`nav-item dropdown ${openDropdown === 'zones' ? 'show' : ''}`}>
+                <span
+                  className="nav-link dropdown-toggle"
+                  onClick={() => handleDropdownToggle('zones')}
+                  role="button"
+                >
+                  Zones
+                </span>
+                <ul className={`dropdown-menu ${openDropdown === 'zones' ? 'show' : ''}`}>
+                  <li><Link className="dropdown-item" to="/zones/co-living" onClick={closeMenu}>Co-living</Link></li>
+                  <li><Link className="dropdown-item" to="/zones/cafe" onClick={closeMenu}>Cafe</Link></li>
+                  <li><Link className="dropdown-item" to="/zones/gaming" onClick={closeMenu}>Gaming</Link></li>
                 </ul>
               </li>
+
               <li className="nav-item">
-                <Link className=" btn btn-contact" to="/contact" onClick={() => setIsOpen(false)}>Contact Us</Link>
+                <div className="btn btn-contact-customize">
+                  <Link className="btn btn-contact" to="/contact" onClick={closeMenu}>Contact Us</Link>
+                </div>
               </li>
             </ul>
           </div>

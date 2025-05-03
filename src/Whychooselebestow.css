@@ -36,3 +36,124 @@
     padding-top: 15px;
     padding-left: 120px;
 }
+
+
+/* 1199px - 1283px */
+@media (max-width: 1283px) {
+    .whylebestowimage-body {
+      padding-left: 80px;
+      font-size: 22px;
+    }
+  }
+  
+  /* 991px - 1199px */
+@media (max-width: 1199px) {
+    .why-choose-lebestow-heading,
+    .why-choose-lebestow-heading-two {
+      font-size: 36px;
+    }
+  
+    .whylebestowimage-body {
+      padding-left: 60px;
+      font-size: 20px;
+    }
+  
+    .why-choose-lebestow-body {
+      font-size: 15px;
+    }
+}
+  
+  /* 800px - 990px */
+@media (max-width: 990px) {
+    .why-choose-lebestow-heading,
+    .why-choose-lebestow-heading-two {
+      font-size: 32px;
+    }
+  
+    .whylebestowimage {
+      width: 100%;
+    }
+  
+    .whylebestowimage-body {
+      padding-left: 40px;
+      font-size: 18px;
+    }
+}
+  
+  /* 768px - 799px */
+@media (max-width: 799px) {
+    .why-choose-lebestow-section {
+      padding: 0 20px;
+    }
+  
+    .whylebestowimage-body {
+      padding-left: 30px;
+      font-size: 17px;
+    }
+}
+  
+  /* 572px - 767px */
+@media (max-width: 767px) {
+    .why-choose-lebestow-heading,
+    .why-choose-lebestow-heading-two {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .whylebestowimage-body {
+      padding-left: 20px;
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .whylebestowimage {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .why-choose-lebestow-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .why-choose-lebestow-item img {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+}
+  
+  /* 480px - 571px */
+@media (max-width: 571px) {
+    .why-choose-lebestow-heading,
+    .why-choose-lebestow-heading-two {
+      font-size: 24px;
+    }
+  
+    .whylebestowimage-body {
+      font-size: 15px;
+      padding-left: 0;
+    }
+}
+  
+  /* 380px - 479px */
+@media (max-width: 479px) {
+    .why-choose-lebestow-heading,
+    .why-choose-lebestow-heading-two {
+      font-size: 20px;
+    }
+  
+    .why-choose-lebestow-body {
+      font-size: 14px;
+    }
+  
+    .whylebestowimage-body {
+      font-size: 14px;
+    }
+  
+    .why-choose-lebestow-item img {
+      width: 50px;
+      height: 50px;
+    }
+}
+  

@@ -11,7 +11,7 @@ const Gaming = () => {
     <>
     <div className="gaming-background-wrapper">
       <div className="container gaming-content">
-        <div className="carousel-caption d-none d-md-block">
+        <div className="carousel-caption d-block">
           <h2 className='gaming-heading'>Where Play <br /> Meets Everyday <br/>Living</h2>
           <p className='gaming-body'>
             Take a break. Spark a friendly challenge. Or just have fun.<br />

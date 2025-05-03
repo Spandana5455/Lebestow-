@@ -61,3 +61,199 @@
     color: #000;
     padding-bottom: 10px;
 }
+
+
+
+/* ≥1284px — Large Desktops */
+@media (min-width: 1284px) {
+    .cancellationpolicy-box {
+      padding: 80px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 24px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 350px;
+      height: 350px !important;
+    }
+  
+    .divider {
+      max-width: 800px;
+    }
+  }
+  
+  /* 1199px – 1283px */
+  @media (min-width: 1199px) and (max-width: 1283px) {
+    .cancellationpolicy-box {
+      padding: 60px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 22px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 300px;
+      height: 300px !important;
+    }
+  
+    .divider {
+      max-width: 700px;
+    }
+  }
+  
+  /* 991px – 1198px */
+  @media (min-width: 991px) and (max-width: 1198px) {
+    .cancellationpolicy-box {
+      padding: 50px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 20px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 250px;
+      height: 250px !important;
+    }
+  
+    .divider {
+      max-width: 600px;
+    }
+  }
+  
+  /* =990px */
+  @media (width: 990px) {
+    .cancellationpolicy-box {
+      padding: 45px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 18px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 240px;
+      height: 240px !important;
+    }
+  
+    .divider {
+      max-width: 550px;
+    }
+  }
+  
+  /* 800px – 990px */
+  @media (min-width: 800px) and (max-width: 989px) {
+    .cancellationpolicy-box {
+      padding: 40px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 18px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 220px;
+      height: 220px !important;
+    }
+  
+    .divider {
+      max-width: 500px;
+    }
+  }
+  
+  /* 768px – 799px */
+  @media (min-width: 768px) and (max-width: 799px) {
+    .cancellationpolicy-box {
+      padding: 35px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 17px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 200px;
+      height: 200px !important;
+    }
+  
+    .divider {
+      max-width: 450px;
+    }
+  }
+  
+  /* 572px – 767px */
+  @media (min-width: 572px) and (max-width: 767px) {
+    .cancellationpolicy-box {
+      padding: 30px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 16px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 180px;
+      height: 180px !important;
+    }
+  
+    .divider {
+      max-width: 400px;
+    }
+  
+    .cancellationpolicy-heading {
+      font-size: 26px;
+    }
+  }
+  
+  /* 480px – 571px */
+  @media (min-width: 480px) and (max-width: 571px) {
+    .cancellationpolicy-box {
+      padding: 25px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 15px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 160px;
+      height: 160px !important;
+    }
+  
+    .divider {
+      max-width: 350px;
+    }
+  
+    .cancellationpolicy-heading {
+      font-size: 24px;
+    }
+  }
+  
+  /* ≤380px — Smallest Phones */
+  @media (max-width: 380px) {
+    .cancellationpolicy-box {
+      padding: 20px !important;
+      border-radius: 25px !important;
+    }
+  
+    .cancellationpolicy-body {
+      font-size: 14px;
+    }
+  
+    .cancellationpolicy-logo-bg {
+      width: 140px;
+      height: 140px !important;
+    }
+  
+    .divider {
+      max-width: 300px;
+    }
+  
+    .cancellationpolicy-heading {
+      font-size: 22px;
+    }
+  }
+  

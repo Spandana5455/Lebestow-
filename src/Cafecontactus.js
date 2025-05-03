@@ -67,7 +67,6 @@ const Cafecontactus = () => {
                 <Form.Label className="cafe-form-title">First Name*</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Enter your First Name"
                   name="first_name"
                   value={formData.first_name}
                   onChange={handleChange}
@@ -80,7 +79,6 @@ const Cafecontactus = () => {
                 <Form.Label className="cafe-form-title">Last Name*</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Enter your Last Name"
                   name="last_name"
                   value={formData.last_name}
                   onChange={handleChange}
@@ -96,7 +94,6 @@ const Cafecontactus = () => {
                 <Form.Label className="cafe-form-title">Email*</Form.Label>
                 <Form.Control
                   type="email"
-                  placeholder="Enter your Email ID"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
@@ -109,7 +106,6 @@ const Cafecontactus = () => {
                 <Form.Label className="cafe-form-title">Phone Number*</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Enter your Phone"
                   name="user_phone"
                   value={formData.phone}
                   onChange={handleChange}

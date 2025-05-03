@@ -430,3 +430,347 @@
     padding-top: 10px;
     text-transform: capitalize;
 }
+
+
+/* ≥1284px */
+@media (min-width: 1284px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 267px !important;
+    height: 293px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 267px !important;
+    height: 200px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 40px !important;
+  }
+}
+
+/* 1199px–1283px */
+@media (max-width: 1283px) and (min-width: 1200px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 240px !important;
+    height: 270px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 240px !important;
+    height: 180px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 36px !important;
+  }
+}
+
+/* 991px–1199px */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 220px !important;
+    height: 250px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 220px !important;
+    height: 160px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 34px !important;
+  }
+}
+
+/* 990px only */
+@media (max-width: 990px) and (min-width: 989px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 150px !important;
+    height: 255px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 150px !important;
+    height: 155px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 32px !important;
+  }
+}
+
+/* 800px–988px */
+@media (max-width: 988px) and (min-width: 800px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 150px !important;
+    height: 230px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 150px !important;
+    height: 145px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 30px !important;
+  }
+}
+
+/* 768px–799px */
+@media (max-width: 799px) and (min-width: 768px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 150px !important;
+    height: 220px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 150px !important;
+    height: 140px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 28px !important;
+  }
+}
+
+/* 572px–767px */
+@media (max-width: 767px) and (min-width: 572px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 180px !important;
+    height: 230px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 180px !important;
+    height: 130px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 26px !important;
+    margin-left: -60px !important;
+  }
+}
+
+/* 480px–571px */
+@media (max-width: 571px) and (min-width: 480px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 150px !important;
+    height: 210px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 148px !important;
+    height: 120px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 24px !important;
+  }
+}
+
+/* ≤380px */
+@media (max-width: 380px) {
+  .starters-card,
+  .noodles-card,
+  .friedrice-card,
+  .quickbytes-card,
+  .sandwich-card,
+  .soups-card,
+  .milkshake-card,
+  .maggie-card {
+    width: 140px !important;
+    height: 200px !important;
+  }
+
+  .starters-image,
+  .noodles-image,
+  .friedrice-image,
+  .quickbytes-image,
+  .sandwich-image,
+  .soups-image,
+  .milkshake-image,
+  .maggie-image {
+    width: 138px !important;
+    height: 110px !important;
+  }
+
+  .starters-heading,
+  .noodles-heading,
+  .friedrice-heading,
+  .quickbytes-heading,
+  .sandwich-heading,
+  .soups-heading,
+  .milkshake-heading,
+  .maggie-heading {
+    font-size: 22px !important;
+  }
+}

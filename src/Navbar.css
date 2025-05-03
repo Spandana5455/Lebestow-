@@ -11,9 +11,10 @@
 .logo-image {
     height: 72.29569244384766px;
     width: 72.29569244384766px;
+    margin-left: -150px !important;
 }
 .navbar-nav {
-    gap: 40px;
+    gap: 80px;
 }
 .nav-link {
     font-size: 20px;
@@ -28,6 +29,10 @@
     font-weight: 600;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.btn-contact-customize {
+    margin-right: -110px;
 }
 
 .dropdown-menu {
@@ -46,6 +51,7 @@
     background-color: #f8f9fa;
 }
   
+
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; 
@@ -54,5 +60,279 @@
 .nav-item.dropdown .dropdown-toggle::after {
     display: none;
 }
+
+.navbar-nav .dropdown-menu {
+    display: none;
+}
+
+.navbar-nav .dropdown.show .dropdown-menu,
+.dropdown-menu.show {
+    display: block;
+}
+/* 1284px and above — Desktop (no changes unless needed) */
+@media (min-width: 1284px) {
+    .navbar-nav {
+      gap: 80px;
+    }
+    .logo-image {
+        height: 72.29569244384766px;
+        width: 72.29569244384766px;
+        margin-left: -150px !important;
+    }
+  }
+  
+  /* 1200px to 1283px */
+  @media (max-width: 1283px) and (min-width: 1200px) {
+    .navbar-nav {
+      gap: 60px;
+    }
+    .logo-image {
+        height: 72.29569244384766px;
+        width: 72.29569244384766px;
+        margin-left: -50px !important;
+    }
+  }
+  
+  /* 992px to 1199px */
+  @media (max-width: 1199px) and (min-width: 992px) {
+    .navbar-nav {
+      gap: 50px;
+    }
+  
+    .logo-image {
+      margin-left: -40px !important;
+    }
+  
+    .btn-contact {
+      font-size: 20px;
+    }
+  
+    .btn-contact-customize {
+      margin-right: -80px;
+    }
+    .navbar-nav .dropdown-menu {
+        display: none;
+    }
+    
+    .navbar-nav .dropdown.show .dropdown-menu,
+    .dropdown-menu.show {
+        display: block;
+    }
+  }
+  
+  /* 800px to 991px */
+  @media (max-width: 991px) and (min-width: 800px) {
+    .navbar-nav {
+      gap: 30px;
+    }
+  
+    .logo-image {
+      margin-left: -40px !important;
+    }
+  
+    .btn-contact-customize {
+      margin-right: -50px;
+    }
+  
+    .btn-contact {
+      font-size: 18px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .navbar-collapse.show {
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+    }
+    .navbar-nav .dropdown-menu {
+        display: none;
+    }
+    
+    .navbar-nav .dropdown.show .dropdown-menu,
+    .dropdown-menu.show {
+        display: block;
+    }
+  }
+  
+  /* 768px to 799px */
+  @media (max-width: 799px) and (min-width: 768px) {
+    .navbar-nav {
+      gap: 20px;
+    }
+  
+    .logo-image {
+      margin-left: 0 !important;
+      height: 60px;
+      width: 60px;
+    }
+  
+    .btn-contact {
+      font-size: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  
+    .btn-contact-customize {
+      margin-right: -30px;
+    }
+    .navbar-collapse.show {
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+    }    
+    .navbar-nav .dropdown-menu {
+        display: none;
+    }
+    
+    .navbar-nav .dropdown.show .dropdown-menu,
+    .dropdown-menu.show {
+        display: block;
+    }
+  }
+  
+  /* 572px to 767px */
+  @media (max-width: 767px) and (min-width: 572px) {
+    .logo-image {
+      margin-left: 0 !important;
+      height: 55px;
+      width: 55px;
+    }
+  
+    .nav-link {
+      font-size: 18px;
+    }
+  
+    .btn-contact {
+      font-size: 16px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  
+    .navbar-nav {
+      gap: 0;
+    }
+  
+    .btn-contact-customize {
+      margin-right: 0;
+    }
+    .navbar-collapse.show {
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+    }    
+    .navbar-nav .dropdown-menu {
+        display: none;
+    }
+    
+    .navbar-nav .dropdown.show .dropdown-menu,
+    .dropdown-menu.show {
+        display: block;
+    }
+  }
+  
+  /* 480px to 571px */
+  @media (max-width: 571px) and (min-width: 480px) {
+    .logo-image {
+      margin-left: 0 !important;
+      height: 50px;
+      width: 50px;
+    }
+    .navbar-nav {
+        gap: 15px;
+    }
+    .nav-link {
+      font-size: 16px;
+    }
+  
+    .btn-contact {
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .navbar-collapse.show {
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+    }    
+    .navbar-nav .dropdown-menu {
+        display: none;
+    }
+    
+    .navbar-nav .dropdown.show .dropdown-menu,
+    .dropdown-menu.show {
+        display: block;
+    }
+  }
+  
+  /* 380px to 479px */
+  @media (max-width: 479px) and (min-width: 380px) {
+    .logo-image {
+        margin-left: 20px !important;
+        height: 45px;
+        width: 45px;
+    }
+    .navbar-nav {
+        gap: 10px;
+    }
+    .nav-link {
+      font-size: 15px;
+    }
+  
+    .btn-contact {
+      font-size: 13px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .navbar-collapse.show {
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+    }    
+    .navbar-nav .dropdown-menu {
+        display: none;
+    }
+    
+    .navbar-nav .dropdown.show .dropdown-menu,
+    .dropdown-menu.show {
+        display: block;
+    }
+  }
+  
+  /* Below 380px */
+  @media (max-width: 379px) {
+    .logo-image {
+        margin-left: 10px !important;
+        height: 40px;
+        width: 40px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+
+    .nav-link {
+      font-size: 14px;
+    }
+  
+    .btn-contact {
+      font-size: 12px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    .navbar-collapse.show {
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+    }    
+    .navbar-nav .dropdown-menu {
+        display: none;
+    }
+    
+    .navbar-nav .dropdown.show .dropdown-menu,
+    .dropdown-menu.show {
+        display: block;
+    }
+  }
+  
   
   

@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
@@ -13,7 +14,6 @@ import Contactus from "./Contactus";
 import Testimonials from "./Testimonials";
 import Teamsection from "./Teamsection";
 import Cafe from "./Cafe";
-import Gym from "./Gym";
 import Gaming from "./Gaming";
 import Coliving from "./Coliving";
 import Menu from "./Menu";
@@ -42,7 +42,6 @@ const App = () => {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/teamsection" element={<Teamsection />} />
           <Route path="/zones/cafe" element={<Cafe />} />
-          <Route path="/zones/gym" element={<Gym />} />
           <Route path="/zones/gaming" element={<Gaming />} />
           <Route path="/zones/co-living" element={<Coliving />} />
           <Route path="/zones/cafe/menu" element={<Menu />} />

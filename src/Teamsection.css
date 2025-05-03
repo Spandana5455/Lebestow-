@@ -74,3 +74,69 @@
     transform: translateX(500px) scale(0.8);
     z-index: 1;
 }
+
+
+
+/* For tablets and below (≤ 991px) */
+@media (max-width: 991px) {
+    .team-wrapper {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      padding-top: 0;
+    }
+  
+    .member {
+      position: static;
+      transform: none !important;
+      width: 100%;
+      max-width: 350px;
+      margin-bottom: 40px;
+      opacity: 1;
+      scale: 1;
+    }
+  
+    .member-image {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .member-name {
+      font-size: 18px;
+      padding-top: 20px;
+    }
+  
+    .member-title,
+    .member-quote {
+      font-size: 14px;
+    }
+  }
+  
+  /* For mobile phones (≤ 576px) */
+@media (max-width: 576px) {
+    .teamsection-heading,
+    .teamsection-heading-two {
+      font-size: 28px;
+    }
+  
+    .teamsection-body {
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  
+    .member-image {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .member-name {
+      font-size: 16px;
+    }
+  
+    .member-title,
+    .member-quote {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+}
+  

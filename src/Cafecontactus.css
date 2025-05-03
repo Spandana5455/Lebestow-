@@ -60,3 +60,155 @@
     padding-top: 80px;
     padding-left: 650px;
 }
+
+/* >= 1284px */
+@media (min-width: 1284px) {
+    .form-section {
+      width: 976px;
+      margin-left: 150px;
+      padding: 80px;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 650px;
+    }
+}
+  
+  /* 1199px to 1283px */
+@media (max-width: 1283px) and (min-width: 1200px) {
+    .form-section {
+      width: 900px;
+      margin-left: 100px;
+      padding: 60px;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 550px;
+    }
+}
+  
+  /* 991px to 1199px */
+@media (max-width: 1199px) and (min-width: 992px) {
+    .form-section {
+      width: 800px;
+      margin-left: 60px;
+      padding: 50px;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 450px;
+    }
+}
+  
+  /* 990px only */
+@media (max-width: 990px) and (min-width: 989px) {
+    .form-section {
+      width: 760px;
+      margin-left: 40px;
+      padding: 45px;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 400px;
+    }
+}
+  
+  /* 800px to 990px */
+@media (max-width: 988px) and (min-width: 800px) {
+    .form-section {
+      width: 700px;
+      margin-left: 30px;
+      padding: 40px;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 320px;
+    }
+}
+  
+  /* 768px to 799px */
+@media (max-width: 799px) and (min-width: 768px) {
+    .form-section {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 40px;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 280px;
+    }
+
+    .cafe-form-title {
+        font-size: 22px !important;
+    }
+}
+  
+  /* 572px to 767px */
+@media (max-width: 767px) and (min-width: 572px) {
+    .form-section {
+      width: 90%;
+      padding: 30px;
+      margin: 0 auto;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 200px;
+    }
+  
+    .talk-to-our-team-one, .talk-to-our-team-two {
+      font-size: 32px;
+    }
+    .cafe-form-title {
+        font-size: 20px !important;
+    }
+}
+  
+  /* 480px to 571px */
+@media (max-width: 571px) and (min-width: 480px) {
+    .form-section {
+      width: 95%;
+      padding: 25px;
+      margin: 0 auto;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 6px;
+    }
+  
+    .talk-to-our-team-one, .talk-to-our-team-two {
+      font-size: 28px;
+    }
+
+    .cafe-form-title {
+        font-size: 18px !important;
+    }
+}
+  
+  /* 380px and below */
+@media (max-width: 380px) {
+    .form-section {
+      width: 95%;
+      padding: 20px;
+      margin: 0 auto;
+    }
+  
+    .cafe-button-custom {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .talk-to-our-team-one, .talk-to-our-team-two {
+      font-size: 24px;
+      padding-top: 40px;
+    }
+  
+    .cafe-button {
+      width: 100%;
+    }
+
+    .cafe-form-title {
+        font-size: 14px !important;
+    }
+}
+  

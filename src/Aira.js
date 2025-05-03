@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Button, Table, Form, Card, ListGroup} from 'react-bootstrap';
 import './Aira.css';
+import './Gym.css';
 import mon1 from './images/mon1.png';
 import mon2 from './images/mon2.png';
 import mon3 from './images/mon3.png';
@@ -20,6 +21,11 @@ import airavisual5 from './images/airavisual5.png';
 import airavisual6 from './images/airavisual6.png';
 import casa from './images/casa.png';
 import bhuvan from './images/bhuvan.png';
+import gymimage from './images/gymimage.png';
+import gymicon1 from './images/gymicon1.gif';
+import gymicon2 from './images/gymicon2.gif';
+import gymicon3 from './images/gymicon3.gif';
+import gymicon4 from './images/gymicon4.gif';
 
 const rooms = [
   { "roomNo": 101, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": "Photos" },
@@ -414,8 +420,43 @@ const Aira = () => {
                 <img src={airavisual6} className='img-fluid w-100 h-100' alt=''/>
             </div>
         </div>
-        
     </div>
+
+
+    <h2 className="why-work-out-section-heading text-center">Why Work Out at Le Bestow Gym</h2>
+    
+            <div className="why-work-out-section">
+                <div className="container pt-4">
+                    <div className="row g-4 p-4">
+                        <div className="col card1">
+                        <img src={gymicon1} className='gymicon' alt='gymicon1'/>
+                        <h5 className="why-work-out-head">Advanced Fitness Equipment</h5>
+                        <p className="why-work-out-body">Focus on independence: “Train with premium machines-no waiting, no limits. Everything you need, when you need it.”</p>
+                        </div>
+                        <div className="col card1">
+                        <img src={gymicon2} className='gymicon' alt='gymicon2'/>
+                        <h5 className="why-work-out-head">Smart Workout Zones</h5>
+                        <p className="why-work-out-body">Highlight efficiency: “Targeted zones for specific workouts-from HIIT to stretch, so you can flow through your routine with purpose.”</p>
+                        </div>
+                        <div class="w-100"></div>
+                        <div className="col card1">
+                        <img src={gymicon3} className='gymicon' alt='gymicon3'/>
+                        <h5 className="why-work-out-head">Popular Among Fitness Enthusiasts</h5>
+                        <p className="why-work-out-body">Social proof angle: “Join hundreds who chose freedom over follow-the-leader fitness. Built for real people, real goals.”</p>
+                        </div>
+                        <div className="col card1">
+                        <img src={gymicon4} className='gymicon' alt='gymicon4'/>
+                        <h5 className="why-work-out-head">Positive Workout Vibes</h5>
+                        <p className="why-work-out-body">Emotional connection: “Designed to lift your mood and drive consistency. Feel the energy every time you step in.”</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <img src={gymimage} className='gymimage' alt='gymimage'/>
+                <div className='gym-contact-us'>
+                    <Link to="/contact"><button className='gymcontactus'>Contact Us</button></Link>
+                </div>
+            </div>
 
      <div className="container text-center pt-4">
                 <h2 className="similar-properties">Similar Properties</h2>

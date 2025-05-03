@@ -63,12 +63,12 @@
 }
 .vertical-divider {
     position: absolute;
-    left: 45%;
-    top: 30%;
+    left: 45% !important;
+    top: 25% !important;
     bottom: 0%;
     width: 0;
-    height: 671.0000000000006px;
-    border-left: 1px solid #000000;
+    height: 655.0000000000006px !important;
+    border-left: 1px solid #000000 !important;
     transform: translateX(-50%);
 }
   
@@ -90,4 +90,201 @@
     font-weight: 400;
     padding-left: 10px;
     padding-top: 40px;
+}
+
+
+/* Default adjustments for screens wider than 1284px */
+@media (min-width: 1284px) {
+  .contact-left {
+    height: 680px;
+    width: 500px;
+  }
+
+  .contact-button-custom {
+    padding-left: 280px;
+    padding-top: 120px;
+  }
+  .vertical-divider {
+    display: none;
+  }
+}
+
+/* For screens between 1199px and 1283px */
+@media (max-width: 1283px) and (min-width: 1199px) {
+  .contact-left {
+    height: 650px;
+    width: 470px;
+  }
+
+  .contact-button-custom {
+    padding-left: 240px;
+    padding-top: 100px;
+  }
+  .vertical-divider {
+    display: none;
+    left: 0% !important;
+  }
+}
+
+/* For screens between 991px and 1199px */
+@media (max-width: 1198px) and (min-width: 991px) {
+  .contact-left {
+    width: 100%;
+    height: auto;
+    margin-left: -30px !important;
+  }
+
+  .contact-button-custom {
+    padding-left: 200px;
+    padding-top: 80px;
+  }
+  .vertical-divider {
+    display: none;
+    left: 0% !important;
+  }
+}
+
+/* For exactly 990px width */
+@media (max-width: 990px) and (min-width: 989px) {
+  .contact-left {
+    width: 100%;
+    height: auto;
+    margin-left: -90px !important;
+  }
+
+  .contact-button-custom {
+    padding-left: 180px;
+    padding-top: 80px;
+    margin-left: -30px !important;
+  }
+}
+
+/* For screens between 800px and 990px */
+@media (max-width: 988px) and (min-width: 800px) {
+  .contact-left {
+    width: 100%;
+    height: auto;
+    margin-left: -50px !important;
+  }
+
+  .contact-button-custom {
+    padding-left: 150px;
+    padding-top: 70px;
+    margin-left: -30px !important;
+  }
+
+  .vertical-divider {
+    display: none;
+    left: 50% !important;
+  }
+
+  .contact-form {
+    margin-left: 0;
+  }
+}
+
+/* For screens between 768px and 799px */
+@media (max-width: 799px) and (min-width: 768px) {
+  .contact-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-button-custom {
+    padding-left: 130px;
+    padding-top: 60px;
+    margin-left: -30px !important;
+  }
+
+  .vertical-divider {
+    display: none;
+    left: 0% !important;
+  }
+
+  .contact-form {
+    margin-left: 0;
+  }
+}
+
+/* For screens between 572px and 767px */
+@media (max-width: 767px) and (min-width: 572px) {
+  .contact-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-button-custom {
+    padding-left: 80px;
+    padding-top: 50px;
+    margin-left: 100px !important;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+
+  .contact-form {
+    margin-left: 0;
+  }
+  .form-title {
+    padding-top: 15px !important;
+    padding-left: 10px !important;
+  }
+}
+
+/* For screens between 480px and 571px */
+@media (max-width: 571px) and (min-width: 480px) {
+  .contact-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-button-custom {
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-left: 110px !important;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+
+  .contact-form {
+    margin-left: 0;
+  }
+  .form-title {
+    padding-top: 15px !important;
+    padding-left: 10px !important;
+  }
+}
+
+/* For screens 380px and below */
+@media (max-width: 380px) {
+  .contact-left {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .contact-button-custom {
+    padding-left: 0;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .contact-button {
+    width: 100% !important;
+  }
+
+  .contact-form {
+    margin-left: 0;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+  .form-title {
+    padding-top: 15px !important;
+    padding-left: 10px !;
+  }
 }
