@@ -161,8 +161,9 @@ body {
   .gaming-body {
       font-size: 18px;
   }
-  .gaming-offer-heading {
-      font-size: 52px;
+  .gaming-offer-heading{
+    font-size: 52px;
+    margin-left: -30px;
   }
   .gaming-offer-subheading {
       font-size: 80px;
@@ -273,71 +274,226 @@ body {
 }
 
 @media (min-width: 800px) and (max-width: 990px) {
-  .gaming-offer-heading {
-      padding-left: 100px;
-      font-size: 40px;
-  }
-  .gaming-offer-subheading {
-      font-size: 60px;
-  }
-  .gaming-offer-percentage,
-  .offer-percentage-off {
-      font-size: 70px;
-  }
-  .gaming-offer-note {
-      font-size: 20px;
-      width: 100%;
-  }
+  .gaming-heading {
+    font-size: 30px;
+}
+.gaming-body {
+    font-size: 14px;
+}
+.gaming-offer-heading{
+  font-size: 36px;
+  margin-left: -350px;
+}
+.gaming-offer-subheading {
+  font-size: 36px;
+  margin-left: -150px;
+}
+.gaming-offer-percentage{
+  font-size: 36px;
+  margin-left: -200px;
+}
+.offer-percentage-off {
+    font-size: 36px;
+    margin-left: -0px;
+}
+.gamingoffer {
+  width: 105%;
+  height: auto;
+  padding-left: 15px;
+}
+.gaming-offer-note {
+  font-size: 14px;
+  padding: 5px 15px;
+  margin-top: -60px;
+  margin-left: -10px;
+  width: 300px;
+}
+.snooker-image {
+  width: 90%;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.snooker-heading{
+  font-size: 28px;
+  padding-left: 40px;
+}
+.tennis-heading {
+    font-size: 28px;
+}
+.snooker-body {
+  font-size: 14px;
+  margin-left: 30px;
+  margin-right: -30px;
+}
+.tennis-image {
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.tennis-body {
+    font-size: 14px;
+}
+.snooker-book-now,
+.tennis-book-now {
+    padding: 0px 60px;
+    font-size: 16px;
+}
+.snookerbooknow{
+  margin-left: -90px;
+  margin-bottom: 10px;
+}
+.tennisbooknow {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 799px) {
   .gaming-heading {
-      font-size: 38px;
-  }
-  .gaming-body {
-      font-size: 16px;
-  }
-  .snooker-heading,
-  .tennis-heading {
-      font-size: 36px;
-  }
-  .snooker-body,
-  .tennis-body {
-      font-size: 16px;
-  }
-  .gaming-offer-subheading,
-  .gaming-offer-percentage {
-      font-size: 52px;
-  }
+    font-size: 30px;
+}
+.gaming-body {
+    font-size: 14px;
+}
+.gaming-offer-heading{
+  font-size: 36px;
+  margin-left: -350px;
+}
+.gaming-offer-subheading {
+  font-size: 36px;
+  margin-left: -150px;
+}
+.gaming-offer-percentage{
+  font-size: 36px;
+  margin-left: -200px;
+}
+.offer-percentage-off {
+    font-size: 36px;
+    margin-left: -0px;
+}
+.gamingoffer {
+  width: 105%;
+  height: auto;
+  padding-left: 15px;
+}
+.gaming-offer-note {
+  font-size: 14px;
+  padding: 5px 15px;
+  margin-top: -60px;
+  margin-left: -10px;
+  width: 300px;
+}
+.snooker-image {
+  width: 90%;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.snooker-heading{
+  font-size: 28px;
+  padding-left: 40px;
+}
+.tennis-heading {
+    font-size: 28px;
+}
+.snooker-body {
+  font-size: 14px;
+  margin-left: 30px;
+  margin-right: -30px;
+}
+.tennis-image {
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.tennis-body {
+    font-size: 14px;
+}
+.snooker-book-now,
+.tennis-book-now {
+    padding: 0px 60px;
+    font-size: 16px;
+}
+.snookerbooknow{
+  margin-left: -90px;
+  margin-bottom: 10px;
+}
+.tennisbooknow {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
 }
 
 @media (min-width: 572px) and (max-width: 767px) {
   .gaming-heading {
-      font-size: 34px;
+      font-size: 30px;
   }
   .gaming-body {
-      font-size: 15px;
+      font-size: 14px;
   }
   .gaming-offer-subheading {
-      font-size: 44px;
+    font-size: 36px;
+    margin-left: -200px;
   }
-  .gaming-offer-percentage {
-      font-size: 50px;
+  .gaming-offer-percentage{
+    font-size: 36px;
+    margin-left: -200px;
+  }
+  .offer-percentage-off {
+      font-size: 36px;
+      margin-left: -0px;
+  }
+  .gamingoffer {
+    width: 105%;
+    height: auto;
+    padding-left: 15px;
   }
   .gaming-offer-note {
-      font-size: 16px;
-      width: 90%;
-      margin: auto;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: -60px;
+    margin-left: -160px;
+    width: 300px;
   }
-  .snooker-heading,
+  .snooker-image {
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 100px;
+  }
+  .snooker-heading{
+    font-size: 28px;
+    padding-left: 40px;
+  }
   .tennis-heading {
-      font-size: 32px;
+      font-size: 28px;
   }
-  .snooker-body,
+  .snooker-body {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: -30px;
+  }
+  .tennis-image {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
   .tennis-body {
-      font-size: 15px;
+      font-size: 14px;
+  }
+  .snooker-book-now,
+  .tennis-book-now {
+      padding: 0px 60px;
+      font-size: 16px;
+  }
+  .snookerbooknow{
+    margin-left: 130px;
+    margin-bottom: 10px;
+  }
+  .tennisbooknow {
+      margin-left: 40px;
+      margin-bottom: 10px;
   }
 }
+
 
 @media (min-width: 480px) and (max-width: 571px) {
   .gaming-heading {
@@ -398,6 +554,73 @@ body {
   }
   .snookerbooknow{
     margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .tennisbooknow {
+      margin-left: -40px;
+      margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .gaming-heading {
+      font-size: 30px;
+  }
+  .gaming-body {
+      font-size: 14px;
+  }
+  .gaming-offer-subheading {
+    font-size: 36px;
+    margin-left: -200px;
+  }
+  .gaming-offer-percentage{
+    font-size: 36px;
+    margin-left: -200px;
+  }
+  .offer-percentage-off {
+      font-size: 36px;
+      margin-left: -0px;
+  }
+  .gamingoffer {
+    width: 105%;
+    height: auto;
+    padding-left: 15px;
+  }
+  .gaming-offer-note {
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: -60px;
+    margin-left: -160px;
+    width: 300px;
+  }
+  .snooker-image {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  .snooker-heading,
+  .tennis-heading {
+      font-size: 28px;
+  }
+  .snooker-body {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .tennis-image {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  .tennis-body {
+      font-size: 14px;
+  }
+  .snooker-book-now,
+  .tennis-book-now {
+      padding: 0px 60px;
+      font-size: 16px;
+  }
+  .snookerbooknow{
+    margin-left: -20px;
     margin-bottom: 10px;
   }
   .tennisbooknow {

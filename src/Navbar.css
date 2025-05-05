@@ -5,13 +5,12 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background: rgba(0, 0, 0, 0.2); 
+    background: #000; 
  
 }
 .logo-image {
     height: 72.29569244384766px;
     width: 72.29569244384766px;
-    margin-left: -150px !important;
 }
 .navbar-nav {
     gap: 80px;
@@ -32,7 +31,7 @@
 }
 
 .btn-contact-customize {
-    margin-right: -110px;
+    margin-right: -10px;
 }
 
 .dropdown-menu {
@@ -77,7 +76,6 @@
     .logo-image {
         height: 72.29569244384766px;
         width: 72.29569244384766px;
-        margin-left: -150px !important;
     }
   }
   
@@ -233,7 +231,7 @@
   /* 480px to 571px */
   @media (max-width: 571px) and (min-width: 480px) {
     .logo-image {
-      margin-left: 0 !important;
+      margin-left: 30px !important;
       height: 50px;
       width: 50px;
     }

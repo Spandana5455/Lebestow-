@@ -13,7 +13,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-top: -175px;
+    margin-top: -30px;
 }
 
 .coliving-heading {
@@ -21,9 +21,8 @@
     font-weight: 600;
     color: #FF8600;
     text-align: start;
-    padding-top: 150px;
     line-height: 60px;
-    margin-left: -70px;
+    margin-left: 70px;
 }
 
 .coliving-subheading {
@@ -38,12 +37,12 @@
     color: #fff;
     text-align: start;
     padding-right: 80px;
-    margin-left: -70px;
+    margin-left: 70px;
     text-transform: capitalize;
 }
 
 .colivingimg1 {
-    padding-top: 50px;
+  margin-top: -40px;
     margin-left: 90px;
 }
 
@@ -279,15 +278,28 @@
     .coliving-heading, .coliving-subheading {
       font-size: 36px !important;
       line-height: 50px !important;
+      margin-top: -100px !important;
     }
   
     .coliving-body {
       font-size: 20px !important;
       padding-right: 40px !important;
     }
+    .colivingimg1 {
+      margin-left: 0 !important;
+      width: 100% !important;
+      margin-top: -100px !important;
+    }
+  
   
     .menstay-body, .womenstay-body, .colivingstay-body {
       font-size: 28px !important;
+    }
+    .menstay-img,
+    .womenstay-img,
+    .coliving-img {
+      margin-left: 0 !important;
+      width: 100% !important;
     }
   
     .available-heading,
@@ -309,17 +321,44 @@
         margin: 0 auto 20px auto !important;
         width: 100% !important;
     }
+    .lifeatlebestow-section {
+      flex-direction: column !important;
+      height: auto !important;
+      padding: 40px 0 !important;
+    }
+
+    .lifeatlebestow-heading {
+        margin-left: 50px !important;
+    }
+  
+    .lifeatlebestow-head {
+        text-align: center !important;
+      padding: 20px 10px !important;
+      margin-left: 80px !important;
+      margin-top: -90px !important;
+    }
+    .lifeatlebestow-body {
+      text-align: center !important;
+      padding: 20px 10px !important;
+      margin-left: 80px !important;
+      margin-top: -50px !important;
+    }
+  
+    .lifeatlebestow-image {
+      width: 420px !important;
+      height: auto !important;
+      margin-left: 50px !important;
+    }
 }
   
 @media (max-width: 991px) {
     .coliving-heading {
         font-size: 30px !important;
       margin-left: -20px !important;
-      margin-top: -150px !important;
+      margin-top: -100px !important;
     }
     .coliving-subheading {
       font-size: 30px !important;
-      margin-top: -150px !important;
     }
   
     .coliving-body {
@@ -331,7 +370,7 @@
     .colivingimg1 {
       margin-left: 0 !important;
       width: 120% !important;
-      margin-top: -60px !important;
+      margin-top: -100px !important;
     }
   
     .menstay-img,
@@ -450,6 +489,7 @@
       margin: 0 auto !important;
       margin-left: -275px !important;
       width: 140% !important;
+      margin-top: -120px !important;
     }
   
     .how-coliving-works-heading {
@@ -543,7 +583,6 @@
         font-size: 24px !important;
       line-height: 36px !important;
       text-align: center !important;
-      margin-top: 180px !important;
       margin-left: 80px !important;
       margin-right: -180px !important;
     }
@@ -565,8 +604,9 @@
   
     .colivingimg1 {
       margin: 0 auto !important;
-      margin-left: -215px !important;
+      margin-left: -225px !important;
       width: 140% !important;
+      margin-top: -130px !important;
     }
   
     .how-coliving-works-heading {
@@ -621,7 +661,7 @@
     .airabhuvan-card {
       height: auto !important;
       width: 400px !important;
-      margin-left: 15px !important;
+      margin-left: 35px !important;
     }
 
     .lifeatlebestow-heading {
@@ -638,13 +678,13 @@
     .lifeatlebestow-body {
       font-size: 18px !important;
       line-height: 30px !important;
-      margin-left: -280px !important;
+      margin-left: -260px !important;
       margin-top: -40px !important;
     }
 
     .lifeatlebestow-image {
-        width: 420px !important;
-        margin-left: 50px !important;
+        width: 380px !important;
+        margin-left: 40px !important;
     }
   
     .lifeatlebestow-section {
@@ -660,7 +700,6 @@
         font-size: 24px !important;
       line-height: 36px !important;
       text-align: center !important;
-      margin-top: 60px !important;
       margin-left: 30px !important;
       margin-right: -180px !important;
     }
@@ -684,7 +723,7 @@
       margin: 0 auto !important;
       margin-left: -180px !important;
       width: 140% !important;
-      margin-top: -40px !important;
+      margin-top: -70px !important;
     }
   
     .how-coliving-works-heading {

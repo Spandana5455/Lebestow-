@@ -13,7 +13,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-top: -175px;
+    margin-top: -30px;
 }
 
 .aira-lebestow-heading {
@@ -499,7 +499,6 @@
     .aira-lebestow-heading {
         font-size: 32px;
         margin-left: -300px;
-        margin-top: 100px;
       }
     
       .aira-lebestow-sub-heading {
@@ -539,7 +538,6 @@
     .aira-lebestow-heading {
         font-size: 24px;
         margin-left: -220px;
-        margin-top: 100px;
       }
       
       .aira-lebestow-sub-heading {
@@ -579,7 +577,6 @@
     .aira-lebestow-heading {
         font-size: 24px;
         margin-left: -220px;
-        margin-top: 100px;
       }
     
       .aira-lebestow-sub-heading {
@@ -619,7 +616,6 @@
     .aira-lebestow-heading {
         font-size: 20px;
         margin-left: -190px;
-        margin-top: 100px;
       }
 
       .aira-lebestow-sub-heading {
@@ -658,13 +654,12 @@
   @media (max-width: 380px) {
     .aira-lebestow-heading {
       font-size: 20px;
-      margin-left: -175px;
-      margin-top: 100px;
+      margin-left: -155px;
     }
   
     .aira-lebestow-sub-heading {
         font-size: 20px;
-        margin-left: -175px;
+        margin-left: -155px;
     }
     .aira-lebestow-sub-heading-two {
       font-size: 20px;
@@ -672,13 +667,13 @@
   
     .aira-lebestow-location {
       font-size: 12px;
-      margin-left: -170px;
+      margin-left: -150px;
       margin-top: -40px;
     }
   
     .aira-lebestow-rooms {
       font-size: 12px;
-      margin-left: -175px;        
+      margin-left: -155px;        
       text-align: left;
       align-self: flex-start; 
       margin-top: -30px;    
@@ -798,6 +793,13 @@
       width: 100%;
       margin-bottom: 10px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .explorefloors-head,
     .propertyrules-heading,
@@ -841,6 +843,13 @@
     .explorefloors-body {
       font-size: 20px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-body td,
     .table-titles th {
@@ -879,6 +888,13 @@
     .explorefloors-body {
       font-size: 18px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-body td,
     .table-titles th {
@@ -923,6 +939,13 @@
       width: 100%;
       font-size: 16px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-titles th,
     .table-body td {
@@ -967,6 +990,13 @@
       width: 100%;
       font-size: 14px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-titles th,
     .table-body td {

@@ -468,9 +468,7 @@ const Aira = () => {
                 <Card className="rounded-4 bhuvancasa-card">
                   <Card.Img variant="top" src={place.image} className="bhuvancasa-image" />
                   <Card.Body className="text-center">
-                    <Card.Title>
-                      <span className='bhuvancasa-title-one'>Le Bestow</span> <span className='bhuvancasa-title-two'>Co-living</span>
-                    </Card.Title>
+                  <Card.Title><span className='bhuvancasa-title-one'>Le Bestow</span>{place.name !== 'CASA' && (<span className='bhuvancasa-title-two'>Co-living</span>)}</Card.Title>
                     <h5 className="mt-2" style={{ fontWeight: 'bold' }}>{place.name}</h5>
                     <Link to={place.link}><Button className="mt-3 rounded-pill bhuvancasa-details">See Details</Button></Link>
                   </Card.Body>

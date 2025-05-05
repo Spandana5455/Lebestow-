@@ -13,7 +13,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-top: -175px;
+    margin-top: -30px;
 }
 
 .casa-lebestow-heading {
@@ -21,7 +21,7 @@
     font-weight: 700;
     color: #FF8E00;
     margin-left: -600px;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .casa-lebestow-sub-heading-two {
@@ -445,25 +445,25 @@
   @media (max-width: 990px) and (min-width: 800px) {
     .casa-lebestow-heading {
         font-size: 40px;
-        margin-left: -390px;
+        margin-left: -330px;
         margin-top: -70px;
       }
     
       .casa-lebestow-sub-heading-two {
         font-size: 40px;
-        margin-left: -390px;
+        margin-left: -330px;
         margin-top: 30px;
       }
     
       .casa-lebestow-location {
         font-size: 28px;
-        margin-left: -390px;
+        margin-left: -330px;
         margin-top: 10px;
       }
     
       .casa-lebestow-rooms {
         font-size: 22px;
-        margin-left: -390px;        
+        margin-left: -330px;        
         text-align: left;
         align-self: flex-start; 
         margin-top: 30px;    
@@ -484,7 +484,6 @@
     .casa-lebestow-heading {
         font-size: 32px;
         margin-left: -280px;
-        margin-top: 100px;
       }
     
       .casa-lebestow-sub-heading-two {
@@ -521,7 +520,6 @@
     .casa-lebestow-heading {
         font-size: 24px;
         margin-left: -220px;
-        margin-top: 100px;
       }
     
       .casa-lebestow-sub-heading-two {
@@ -558,7 +556,6 @@
     .casa-lebestow-heading {
         font-size: 24px;
         margin-left: -220px;
-        margin-top: 100px;
       }
     
       .casa-lebestow-sub-heading-two {
@@ -595,7 +592,6 @@
     .casa-lebestow-heading {
         font-size: 20px;
         margin-left: -190px;
-        margin-top: 100px;
       }
     
       .casa-lebestow-sub-heading-two {
@@ -631,18 +627,17 @@
   @media (max-width: 380px) {
     .casa-lebestow-heading {
       font-size: 20px;
-      margin-left: -175px;
-      margin-top: 100px;
+      margin-left: -155px;
     }
   
     .casa-lebestow-sub-heading-two {
       font-size: 20px;
-      margin-left: -175px;
+      margin-left: -155px;
     }
   
     .casa-lebestow-location {
       font-size: 12px;
-      margin-left: -170px;
+      margin-left: -150px;
       margin-top: -40px;
     }
   
@@ -752,7 +747,13 @@
     .form-control {
       width: 100%;
       margin-bottom: 10px;
-    }
+    }.photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .explorefloors-head,
     .propertyrules-heading,
@@ -790,6 +791,13 @@
     .explorefloors-body {
       font-size: 20px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-body td,
     .table-titles th {
@@ -819,7 +827,13 @@
   
     .explorefloors-body {
       font-size: 18px;
-    }
+    }.photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-body td,
     .table-titles th {
@@ -857,7 +871,13 @@
     .select-floor {
       width: 100%;
       font-size: 16px;
-    }
+    }.photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-titles th,
     .table-body td {
@@ -897,6 +917,13 @@
       width: 100%;
       font-size: 14px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-titles th,
     .table-body td {

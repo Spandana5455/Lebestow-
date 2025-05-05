@@ -13,7 +13,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-top: -175px;
+    margin-top: -30px;
 }
 
 .d-lebestow-heading {
@@ -393,6 +393,7 @@
     .d-lebestow-heading {
         font-size: 56px;
       margin-left: -500px;
+      margin-top: -60px;
     }
     .d-lebestow-sub-heading-two {
       font-size: 56px;
@@ -446,25 +447,25 @@
   @media (max-width: 990px) and (min-width: 800px) {
     .d-lebestow-heading {
         font-size: 40px;
-        margin-left: -390px;
+        margin-left: -350px;
         margin-top: -70px;
       }
     
       .d-lebestow-sub-heading-two {
         font-size: 40px;
-        margin-left: -310px;
+        margin-left: -280px;
         margin-top: 30px;
       }
     
       .d-lebestow-location {
         font-size: 28px;
-        margin-left: -390px;
+        margin-left: -350px;
         margin-top: 10px;
       }
     
       .d-lebestow-rooms {
         font-size: 22px;
-        margin-left: -390px;        
+        margin-left: -350px;        
         text-align: left;
         align-self: flex-start; 
         margin-top: 30px;    
@@ -485,7 +486,6 @@
     .d-lebestow-heading {
         font-size: 32px;
         margin-left: -280px;
-        margin-top: 100px;
       }
     
       .d-lebestow-sub-heading-two {
@@ -522,7 +522,6 @@
     .d-lebestow-heading {
         font-size: 24px;
         margin-left: -220px;
-        margin-top: 100px;
       }
     
       .d-lebestow-sub-heading-two {
@@ -559,7 +558,6 @@
     .d-lebestow-heading {
         font-size: 24px;
         margin-left: -220px;
-        margin-top: 100px;
       }
     
       .d-lebestow-sub-heading-two {
@@ -596,7 +594,6 @@
     .d-lebestow-heading {
         font-size: 20px;
         margin-left: -190px;
-        margin-top: 100px;
       }
     
       .d-lebestow-sub-heading-two {
@@ -632,18 +629,17 @@
   @media (max-width: 380px) {
     .d-lebestow-heading {
       font-size: 20px;
-      margin-left: -175px;
-      margin-top: 100px;
+      margin-left: -155px;
     }
   
     .d-lebestow-sub-heading-two {
       font-size: 20px;
-      margin-left: -140px;
+      margin-left: -120px;
     }
   
     .d-lebestow-location {
       font-size: 12px;
-      margin-left: -170px;
+      margin-left: -150px;
       margin-top: -40px;
     }
   
@@ -659,7 +655,6 @@
       background-image: url('./images/casabg.png');
       background-size: cover;
       height: auto;
-      padding-top: 30px;
       display: flex;               
       flex-direction: column;
       align-items: center;
@@ -791,6 +786,13 @@
     .explorefloors-body {
       font-size: 20px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-body td,
     .table-titles th {
@@ -826,6 +828,13 @@
     .table-titles th {
       font-size: 16px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .airabhuvan-details {
       padding: 6px 60px;
@@ -859,6 +868,13 @@
       width: 100%;
       font-size: 16px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-titles th,
     .table-body td {
@@ -898,6 +914,13 @@
       width: 100%;
       font-size: 14px;
     }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      border: #FF8600;
+  }
   
     .table-titles th,
     .table-body td {

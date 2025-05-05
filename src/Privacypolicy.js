@@ -33,7 +33,7 @@ const Privacypolicy = () => {
           We implement strict technical and organizational measures to secure your personal data against accidental or unlawful loss, alteration, unauthorized disclosure, or access. We work only with reputable third-party service providers and require them to adhere to strict data privacy standards. Your information is never sold or rented to third parties for marketing purposes. However, in order to fulfill your booking or support requests, we may share necessary information with trusted partners like payment processors, IT service providers, and legal authorities where required.
           </li>
           <li>
-          You have rights over your data, including the right to access, correct, restrict processing, or delete your information. To exercise these rights, please contact us at operation @lebestow.com. We may update this Privacy Policy occasionally to reflect changes in our services or legal obligations. Whenever we make material changes, we will notify you through the platform or other appropriate means.
+          You have rights over your data, including the right to access, correct, restrict processing, or delete your information. To exercise these rights, please contact us at operations@lebestow.com. We may update this Privacy Policy occasionally to reflect changes in our services or legal obligations. Whenever we make material changes, we will notify you through the platform or other appropriate means.
           </li>
           <li>
           Your trust means everything to us, and we are committed to protecting and respecting your privacy at every step of your journey with Lebestow.

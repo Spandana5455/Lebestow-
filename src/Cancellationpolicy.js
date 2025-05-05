@@ -24,19 +24,22 @@ const Cancellationpolicy = () => {
         {/* Terms List */}
         <ul className="cancellationpolicy-body position-relative">
           <li>
-          At [Your Company Name], we are deeply committed to protecting your privacy. When you use our services, you trust us with your personal information, and we take that responsibility seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information.
+          At Lebestow, we understand that plans can change unexpectedly. This Cancellation Policy outlines how cancellations, changes, and refunds are handled for bookings made through our platform.
           </li>
           <li>
-          When you book a space or interact with us, we collect information such as your name, email address, contact number, identification details, and payment information. We also gather data about your stay preferences, communication with our support team, and your activity on our platform to enhance your experience. The primary reason for collecting your information is to manage bookings, provide customer support, process payments, improve our services, and maintain a safe environment for all our guests.
+          Guests may cancel their booking by contacting our support team via email or through their user dashboard. If you cancel at least [X days] before your scheduled check-in date, you will receive a full refund. Cancellations made between [X and Y days] before check-in may qualify for a 50% refund. If you cancel less than [Y days] before your stay or fail to arrive without prior notice ("no-show"), you will not be eligible for a refund.
           </li>
           <li>
-          We implement strict technical and organizational measures to secure your personal data against accidental or unlawful loss, alteration, unauthorized disclosure, or access. We work only with reputable third-party service providers and require them to adhere to strict data privacy standards. Your information is never sold or rented to third parties for marketing purposes. However, in order to fulfill your booking or support requests, we may share necessary information with trusted partners like payment processors, IT service providers, and legal authorities where required
+          In rare instances, Lebestow may need to cancel a booking due to unforeseen circumstances, such as safety concerns, property maintenance issues, or force majeure events (natural disasters, government restrictions, etc.). In such cases, we will offer you a full refund or assist you in rescheduling at no additional cost.
           </li>
           <li>
-          You have rights over your data, including the right to access, correct, restrict processing, or delete your information. To exercise these rights, please contact us at [Insert Contact Email]. We may update this Privacy Policy occasionally to reflect changes in our services or legal obligations. Whenever we make material changes, we will notify you through the platform or other appropriate means.
+          Certain bookings made under special promotions, last-minute deals, or non-refundable offers are exempt from the standard cancellation terms and will be clearly marked as non-refundable at the time of booking.
           </li>
           <li>
-          Your trust means everything to us, and we are committed to protecting and respecting your privacy at every step of your journey with [Your Company Name].
+          Refunds will be processed back to your original method of payment within [7 to 14 business days] after cancellation confirmation. We are not responsible for any delays caused by third-party payment processors or banks.
+          </li>
+          <li>
+          For any questions about cancellations or if you need help modifying your reservation, please contact our support team. Our goal is to make your experience as smooth and worry-free as possible, even when plans change.
           </li>
         </ul>
       </div>

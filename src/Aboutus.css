@@ -1,7 +1,7 @@
 .aboutus-wrapper {
     position: relative;
     z-index: 1;
-    margin-top: -120px;
+    margin-top: -30px;
 }
 
 .aboutus-section {
@@ -230,8 +230,12 @@
 
 
 /* hero section */
-/* 1284px and below */
 @media (max-width: 1284px) {
+  .aboutus-section {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
     .aboutus-heading,
     .aboutus-sub-heading {
       font-size: 52px;
@@ -253,6 +257,11 @@
   
   /* 1199px to 1283px */
 @media (max-width: 1283px) and (min-width: 1200px) {
+  .aboutus-section {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
     .aboutusimg {
       width: 800px;
       height: auto;
@@ -269,10 +278,15 @@
   
   /* 992px to 1199px */
 @media (max-width: 1199px) and (min-width: 992px) {
+  .aboutus-section {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
     .aboutus-heading,
     .aboutus-sub-heading {
       font-size: 52px;
-      padding-top: 100px;
+      padding-top: 0px;
     }
     .aboutusimg {
       width: 100%;
@@ -304,7 +318,7 @@
   
   /* 991px and below */
 @media (max-width: 991px) {
-    .aboutus-heading,
+ .aboutus-heading,
     .aboutus-sub-heading {
       font-size: 40px;
       padding-left: 20px;
@@ -333,9 +347,15 @@
   
   /* 800px to 990px */
 @media (max-width: 990px) and (min-width: 800px) {
+  .aboutus-section {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
     .aboutus-heading,
     .aboutus-sub-heading {
       font-size: 36px;
+      padding-top: 20px ;
     }
   
     .aboutusimg {
@@ -345,9 +365,16 @@
   
   /* 768px to 800px */
 @media (max-width: 800px) and (min-width: 768px) {
+  .aboutus-section {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
     .aboutus-heading,
     .aboutus-sub-heading {
       font-size: 34px;
+      padding-top: 20px ;
     }
 }
   
@@ -361,7 +388,7 @@
   
     .aboutus-heading,
     .aboutus-sub-heading {
-        padding-top: 120px !important;
+        padding-top: 20px !important;
       font-size: 28px;
       padding: 10px 65px;
     }
@@ -396,9 +423,9 @@
   
   /* 480px to 571px */
 @media (max-width: 571px) and (min-width: 480px) {
-    .aboutus-heading,
+  .aboutus-heading,
     .aboutus-sub-heading {
-        padding-top: 100px;
+        padding-top: 10px;
         text-align: center;
         font-size: 24px;
         padding-left: 0;
@@ -431,9 +458,12 @@
   
   /* Below 480px */
 @media (max-width: 479px) {
+  .aboutus-section {
+    height: 130vh;
+  }
     .aboutus-heading,
     .aboutus-sub-heading {
-    padding-top: 100px;
+    padding-top: 10px;
       font-size: 24px;
       padding-left: 0px;
       text-align: center;
@@ -445,9 +475,9 @@
       margin-left: -6px;
     }
   
-    .aboutusbody
+    .aboutusbody 
     .aboutus-body {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 24px;
       padding: 5px 12px;
     }

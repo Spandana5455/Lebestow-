@@ -338,7 +338,7 @@
     .offer-subheading,
     .offer-percentage {
       font-size: 48px;
-      padding-left: 20px;
+      padding-left: 90px;
       text-align: center;
     }
   
@@ -394,17 +394,22 @@
     }
   
     .lebestow-view-menu-button {
-      padding-left: 0;
+      padding: 30px;
       text-align: center;
     }
   
     .offer-heading,
     .offer-subheading,
-    .offer-percentage,
-    .offer-percentage-off {
+    .offer-percentage {
       font-size: 36px;
-      padding-left: 0;
+      padding-left: 100px;
       text-align: center;
+    }
+    .offer-percentage-off{
+      font-size: 36px;
+    }
+    .offerimage {
+      width: 150%;
     }
   
     .offer-note {
@@ -414,8 +419,9 @@
     }
   
     .offer-note-custom {
-      padding-left: 0;
-      padding-top: 20px;
+      margin-left: 20px;
+      width: 300px;
+      margin-top: -40px;
     }
   
     .catering-heading {
@@ -431,16 +437,23 @@
     .cafeteria-image {
         width: 150%;
         margin-top: 120px;
-        margin-left: -60px;
+        margin-left: -30px;
+    }
+    .catering-card {
+      margin-left: 50px;
+    }
+
+    .catering-section {
+      text-align: center;
+      margin-left: 50px;
+    }
+    .lebestow-cafeteria-body {
+      font-size: 24px;
+      margin-left: 50px;
     }
   
     .catering-description {
       font-size: 14px;
-      padding-left: 0;
-      text-align: center;
-    }
-  
-    .catering-image {
       padding-left: 0;
       text-align: center;
     }
@@ -477,14 +490,67 @@
     .offer-subheading,
     .offer-percentage {
       font-size: 28px;
-      margin-left: -450px;
+      margin-left: -390px;
     }
   
     .offer-note {
       font-size: 16px;
       padding: 8px;
-      margin-left: -200px;
+      margin-left: -180px;
       margin-top: -40px;
+    }
+  
+    .custom-btn {
+      font-size: 16px;
+      padding: 8px 16px;
+      margin-bottom: 10px;
+    }
+  
+    .cafe-item-title {
+      font-size: 20px;
+    }
+  
+    .slide-card {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .slide-card:hover .image-container,
+    .slide-card:hover .text-container {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 379px) {
+    .lebestowcafe-heading1 {
+      font-size: 28px;
+    }
+  
+    .lebestowcafe-body {
+      font-size: 18px;
+    }
+
+    .cafeteria-image {
+        width: 150%;
+        margin-top: 200px;
+        margin-left: -60px;
+    }
+  
+    .offer-heading,
+    .offer-subheading,
+    .offer-percentage {
+      font-size: 28px;
+      margin-left: -10px;
+    }
+  
+    .offer-note {
+      font-size: 16px;
+      padding: 8px;
+      margin-left: -150px;
+      margin-top: -40px;
+    }
+    .offerimage {
+      width: 120%;
     }
   
     .custom-btn {

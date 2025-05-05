@@ -48,8 +48,12 @@ const Footer = () => {
           <div className="col-md-2 mb-4">
             <h6 className="footer-heading">Social media</h6>
             <div className="d-flex justify-content-center justify-content-md-start footer-social-icon gap-2 mt-2">
-              <img src={instagram} alt="instagram" />
-              <img src={fb} alt="facebook"/>
+              <a href="https://www.instagram.com/lebestowofficial?igsh=MTFxcHFxM3d6amVkcA==" target="_blank" rel="noopener noreferrer">
+              <img src={instagram} alt="Instagram" />
+              </a>
+              <a href="https://www.facebook.com/share/16NQzeb9Uh/" target="_blank" rel="noopener noreferrer">
+              <img src={fb} alt="Facebook" />
+              </a>
             </div>
           </div>
         </div>
