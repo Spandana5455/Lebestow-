@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer-section text-white pt-4 pb-3">
       <div className="container">
       <div className="d-flex justify-content-center align-items-center gap-3 mb-4">
-        <img src={footerlogo} alt="Le Bestow Logo" style={{ height: '90px' }} />
+        <Link to="/"><img src={footerlogo} alt="Le Bestow Logo" style={{ height: '90px' }} /></Link>
         <h4 className="footerlebestow-heading">Le Bestow Living</h4>
     </div>
 

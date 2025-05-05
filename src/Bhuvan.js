@@ -208,7 +208,7 @@ const colivingData = [
       link: '/explore/aira'
     },
     {
-      name: 'CASA',
+      name: 'CASA Womens PG',
       image: casa,
       link: '/explore/casa'
     }
@@ -428,8 +428,21 @@ const Bhuvan = () => {
                 <Card className="rounded-4 airacasa-card">
                   <Card.Img variant="top" src={place.image} className="airacasa-image" />
                   <Card.Body className="text-center">
-                    <Card.Title><span className='bhuvancasa-title-one'>Le Bestow</span>{place.name !== 'CASA' && (<span className='bhuvancasa-title-two'>Co-living</span>)}</Card.Title>
-                    <h5 className="mt-2" style={{ fontWeight: 'bold' }}>{place.name}</h5>
+                    <Card.Title>{place.name !== 'CASA Womens PG' ? (
+                      <>
+                      <span className='bhuvancasa-title-one'>Le Bestow</span>
+                      <span className='bhuvancasa-title-two'>Co-living</span>
+                      </>
+                      ) : (
+                      <>
+                      <span className='bhuvancasa-title-one'>CASA</span>
+                      <span className='bhuvancasa-title-two'>Women's PG</span>
+                      </>
+                      )}
+                    </Card.Title>
+                    {place.name === 'AIRA' && (
+                      <h5 className="mt-2" style={{ fontWeight: 'bold' }}>{place.name}</h5>
+                    )}
                     <Link to={place.link}><Button className="mt-3 rounded-pill airacasa-details">See Details</Button></Link>
                   </Card.Body>
                 </Card>

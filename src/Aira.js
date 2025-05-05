@@ -214,7 +214,7 @@ const colivingData = [
       link: '/explore/bhuvan'
     },
     {
-      name: 'CASA',
+      name: 'CASA Womens PG',
       image: casa,
       link: '/explore/casa'
     }
@@ -460,7 +460,6 @@ const Aira = () => {
 
      <div className="container text-center pt-4">
                 <h2 className="similar-properties">Similar Properties</h2>
-    
                 <Container className="py-5">
           <Row className="justify-content-center">
             {colivingData.map((place, index) => (
@@ -468,8 +467,21 @@ const Aira = () => {
                 <Card className="rounded-4 bhuvancasa-card">
                   <Card.Img variant="top" src={place.image} className="bhuvancasa-image" />
                   <Card.Body className="text-center">
-                  <Card.Title><span className='bhuvancasa-title-one'>Le Bestow</span>{place.name !== 'CASA' && (<span className='bhuvancasa-title-two'>Co-living</span>)}</Card.Title>
+                  <Card.Title>{place.name !== 'CASA Womens PG' ? (
+                    <>
+                    <span className='bhuvancasa-title-one'>Le Bestow</span>
+                    <span className='bhuvancasa-title-two'>Co-living</span>
+                    </>
+                    ) : (
+                    <>
+                    <span className='bhuvancasa-title-one'>CASA</span>
+                    <span className='bhuvancasa-title-two'>Women's PG</span>
+                    </>
+                  )}
+                  </Card.Title>
+                  {place.name === 'BHUVAN' && (
                     <h5 className="mt-2" style={{ fontWeight: 'bold' }}>{place.name}</h5>
+                  )}
                     <Link to={place.link}><Button className="mt-3 rounded-pill bhuvancasa-details">See Details</Button></Link>
                   </Card.Body>
                 </Card>
