@@ -463,7 +463,7 @@
   }
     .aboutus-heading,
     .aboutus-sub-heading {
-    padding-top: 10px;
+    margin-top: -110px;
       font-size: 24px;
       padding-left: 0px;
       text-align: center;
@@ -502,11 +502,52 @@
 }
 @media (max-width: 360px) {
   .aboutus-section {
-    height: 140vh;
+    height: 150vh;
   }
     .aboutus-heading,
     .aboutus-sub-heading {
-    padding-top: 60px;
+      font-size: 24px;
+      padding-left: 0px;
+      text-align: center;
+    }
+  
+    .aboutusimg {
+      width: 100%;
+      height: auto;
+      margin-left: -6px;
+    }
+  
+    .aboutusbody 
+    .aboutus-body {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 5px 12px;
+    }
+  
+    .aboutus-details {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .about-title{
+        font-size: 18px;
+        padding: 0;
+    } 
+    .about-first-title {
+        padding-top: 130px;
+        font-size: 18px;
+    }
+  
+    .about-text {
+      font-size: 14px;
+    }
+}
+@media (min-width: 320px) {
+  .aboutus-section {
+    height: 150vh;
+  }
+    .aboutus-heading,
+    .aboutus-sub-heading {
       font-size: 24px;
       padding-left: 0px;
       text-align: center;
