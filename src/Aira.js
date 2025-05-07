@@ -26,73 +26,271 @@ import gymicon1 from './images/gymicon1.gif';
 import gymicon2 from './images/gymicon2.gif';
 import gymicon3 from './images/gymicon3.gif';
 import gymicon4 from './images/gymicon4.gif';
+import airabs1 from './images/airabs1.JPG';
+import airabs2 from './images/airabs2.JPG';
+import airabs3 from './images/airabs3.JPG';
 
 const rooms = [
-  { "roomNo": 101, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": "Photos" },
-  { "roomNo": 102, "type": "Single Sharing", "status": "Occupied", "price": "₹24,000", "Action": "Photos" },
-  { "roomNo": 103, "type": "Double Sharing", "status": "2 Beds Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 104, "type": "Single Sharing", "status": "Occupied", "price": "₹24,000", "Action": "Photos" },
-  { "roomNo": 105, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹24,000", "Action": "Photos" },
-  { "roomNo": 106, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 107, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": "Photos" },
-  { "roomNo": 108, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 109, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": "Photos" },
-  { "roomNo": 110, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹24,000", "Action": "Photos" },
-  { "roomNo": 111, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 112, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹24,000", "Action": "Photos" },
-  { "roomNo": 113, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 201, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 202, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 203, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 204, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 205, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 206, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 207, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 208, "type": "Single Sharing", "status": "Occupied", "price": "₹24,000", "Action": "Photos" },
-  { "roomNo": 209, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 210, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 211, "type": "Double Sharing", "status": "3 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 212, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 213, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 301, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 302, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 303, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 304, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 305, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 306, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 307, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 308, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 309, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 310, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 311, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 312, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 313, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 401, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": "Photos" },
-  { "roomNo": 402, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 403, "type": "Triple Sharing", "status": "Occupied", "price": "₹12,000", "Action": "Photos" },
-  { "roomNo": 404, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 405, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 406, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 407, "type": "Double Sharing", "status": "3 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 408, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 409, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 410, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 411, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 412, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 413, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 501, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 502, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 503, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 504, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 505, "type": "Triple Sharing", "status": "Occupied", "price": "₹12,000", "Action": "Photos" },
-  { "roomNo": 506, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 507, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 508, "type": "Double Sharing", "status": "3 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 509, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 510, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 511, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": "Photos" },
-  { "roomNo": 512, "type": "Triple Sharing", "status": "Occupied", "price": "₹12,000", "Action": "Photos" },
-  { "roomNo": 513, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": "Photos" }
+  { "roomNo": 101, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": {
+    "label": "Photos",
+    "url": airabs3
+  } },
+  { "roomNo": 102, "type": "Single Sharing", "status": "Occupied", "price": "₹24,000", "Action": {
+    "label": "Photos",
+    "url": airabs1
+  } },
+  { "roomNo": 103, "type": "Double Sharing", "status": "2 Beds Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 104, "type": "Single Sharing", "status": "Occupied", "price": "₹24,000", "Action": {
+    "label": "Photos",
+    "url": airabs1
+  } },
+  { "roomNo": 105, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹24,000", "Action": {
+    "label": "Photos",
+    "url": airabs1
+  } },
+  { "roomNo": 106, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 107, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": {
+    "label": "Photos",
+    "url": airabs3
+  } },
+  { "roomNo": 108, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 109, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": {
+    "label": "Photos",
+    "url": airabs3
+  } },
+  { "roomNo": 110, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹24,000", "Action": {
+    "label": "Photos",
+    "url": airabs1
+  } },
+  { "roomNo": 111, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 112, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹24,000", "Action": {
+    "label": "Photos",
+    "url": airabs1
+  } },
+  { "roomNo": 113, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 201, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 202, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 203, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 204, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 205, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 206, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 207, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 208, "type": "Single Sharing", "status": "Occupied", "price": "₹24,000", "Action": {
+    "label": "Photos",
+    "url": airabs1
+  } },
+  { "roomNo": 209, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 210, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 211, "type": "Double Sharing", "status": "3 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 212, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 213, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 301, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 302, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 303, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 304, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 305, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 306, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 307, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 308, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 309, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 310, "type": "Single Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs1
+  } },
+  { "roomNo": 311, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 312, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 313, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 401, "type": "Triple Sharing", "status": "1 Bed Available", "price": "₹12,000", "Action": {
+    "label": "Photos",
+    "url": airabs3
+  } },
+  { "roomNo": 402, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 403, "type": "Triple Sharing", "status": "Occupied", "price": "₹12,000", "Action": {
+    "label": "Photos",
+    "url": airabs3
+  } },
+  { "roomNo": 404, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 405, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 406, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 407, "type": "Double Sharing", "status": "3 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 408, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 409, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 410, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 411, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 412, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 413, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 501, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 502, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 503, "type": "Double Sharing", "status": "1 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 504, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 505, "type": "Triple Sharing", "status": "Occupied", "price": "₹12,000", "Action": {
+    "label": "Photos",
+    "url": airabs3
+  } },
+  { "roomNo": 506, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  }},
+  { "roomNo": 507, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 508, "type": "Double Sharing", "status": "3 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 509, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 510, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } },
+  { "roomNo": 511, "type": "Double Sharing", "status": "Occupied", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  }},
+  { "roomNo": 512, "type": "Triple Sharing", "status": "Occupied", "price": "₹12,000", "Action": {
+    "label": "Photos",
+    "url": airabs3
+  } },
+  { "roomNo": 513, "type": "Double Sharing", "status": "2 Bed Available", "price": "₹14,000", "Action": {
+    "label": "Photos",
+    "url": airabs2
+  } }
 ]
 ;
 
@@ -222,6 +420,11 @@ const colivingData = [
 
 const days = Object.keys(foodData);
 const Aira = () => {
+  const [visibleImage, setVisibleImage] = useState(null);
+
+  const toggleImage = (roomNo) => {
+    setVisibleImage(prev => (prev === roomNo ? null : roomNo));
+  };
   const [selectedFloor, setSelectedFloor] = useState("");
   const [searchTerm, setSearchTerm] = useState('');
   const handleFloorChange = (e) => setSelectedFloor(e.target.value);
@@ -292,24 +495,67 @@ const Aira = () => {
                     </tr>
                   </thead>
                   <tbody className="table-body">
-                    {filteredRooms.length > 0 ? (
-                      filteredRooms.map((room, index) => (
-                        <tr key={index}>
-                          <td>{room.roomNo}</td>
-                          <td>{room.type}</td>
-                          <td>{room.status}</td>
-                          <td>{room.price}</td>
-                          <td>
-                            <Button className="photo-custom" size="sm">Photos</Button>
-                          </td>
-                        </tr>
-                      ))
-                    ) : (
-                      <tr>
-                        <td colSpan="5" className="text-center text-muted">No matching rooms found.</td>
-                      </tr>
-                    )}
-                  </tbody>
+  {filteredRooms.length > 0 ? (
+    filteredRooms.map((room, index) => (
+      <React.Fragment key={index}>
+        <tr>
+          <td>{room.roomNo}</td>
+          <td>{room.type}</td>
+          <td>{room.status}</td>
+          <td>{room.price}</td>
+          <td>
+            <Button
+              variant="primary"
+              size="sm"
+              className="photo-custom"
+              onClick={() => toggleImage(room.roomNo)}
+            >
+              {visibleImage === room.roomNo ? "Hide" : "Photos"}
+            </Button>
+          </td>
+        </tr>
+
+        {visibleImage === room.roomNo && (
+          <tr>
+            <td colSpan="6" style={{ textAlign: "center" }}>
+              <div
+                style={{
+                  border: "6px solid #ccc",
+                  borderRadius: "15px",
+                  padding: "10px",
+                  position: "relative",
+                  background: "#f5f5f5",
+                  display: "inline-block", 
+                  justifyContent: "center",
+                }}
+              >
+                {/* Image */}
+                <img
+                  src={room.Action.url}
+                  alt={`Room ${room.roomNo}`}
+                  style={{
+                    width: "80%",
+                    maxWidth: "350px",
+                    height: "auto",
+                    borderRadius: "10px",
+                    boxShadow: "0 0 10px rgba(0,0,0,0.2)",
+                  }}
+                />
+              </div>
+            </td>
+          </tr>
+        )}
+      </React.Fragment>
+    ))
+  ) : (
+    <tr>
+      <td colSpan="5" className="text-center text-muted">
+        No matching rooms found.
+      </td>
+    </tr>
+  )}
+</tbody>
+
                 </Table>
               </div>
             </Container>
