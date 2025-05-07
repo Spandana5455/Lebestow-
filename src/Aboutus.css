@@ -525,9 +525,8 @@
   .aboutus-sub-heading {
     font-size: 24px;
     padding: 10px 10px 5px 10px;
-    margin-top: 0; /* CRITICAL */
-    /* If you want to hide these to match the screenshot more closely: */
-    /* display: none; */
+    margin-top: 0; 
+    margin-left: 70px;
   }
   .aboutus-sub-heading {
     font-size: 20px;
@@ -567,6 +566,11 @@
   .about-text {
     font-size: 13px;
   }
+  .aboutusimg {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -577,7 +581,8 @@
   .aboutus-heading,
   .aboutus-sub-heading {
     font-size: 20px; /* Further reduce font size */
-    margin-top: -90px; /* Potentially reduce negative margin if too aggressive */
+    margin-top: -90px; 
+    margin-left: 40px;/* Potentially reduce negative margin if too aggressive */
   }
 
   .aboutusbody,
@@ -599,6 +604,49 @@
 
   .about-text {
     font-size: 13px;
+  }
+  .aboutusimg {
+    width: 100%;
+    height: auto;
+    margin-left: -6px;
+  }
+}
+@media (max-width: 361px) {
+  .aboutus-section {
+    height: 130vh;
+  }
+
+  .aboutus-heading,
+  .aboutus-sub-heading {
+    font-size: 20px; /* Further reduce font size */
+    margin-top: 30px; 
+    margin-left: 30px;/* Potentially reduce negative margin if too aggressive */
+  }
+
+  .aboutusbody,
+  .aboutus-body {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 10px; /* Adjust padding for narrow screens */
+  }
+
+  .about-first-title {
+    font-size: 16px;
+    padding-top: 120px;
+  }
+
+  .about-title {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .about-text {
+    font-size: 13px;
+  }
+  .aboutusimg {
+    width: 100%;
+    height: auto;
+    margin-left: -6px;
   }
 }
 /* founder section */
