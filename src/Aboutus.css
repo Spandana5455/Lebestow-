@@ -493,7 +493,7 @@
 
   .about-first-title {
     font-size: 22px;
-    padding-top: 40px; /* Reduced from 90px */
+    padding-top: 100px; /* Reduced from 90px */
   }
 
   .about-title {
@@ -556,7 +556,7 @@
 
   .about-first-title {
     font-size: 20px;
-    padding-top: 30px;
+    padding-top: 100px;
   }
 
   .about-title {
