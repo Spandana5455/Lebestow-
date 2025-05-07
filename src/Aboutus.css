@@ -330,19 +330,14 @@
   }
 }
 
-/* Adjustments for 800px to 990px */
-/* Note: Screens in this range also get styles from `max-width: 991px` */
 @media (max-width: 990px) and (min-width: 800px) {
   .aboutus-heading,
   .aboutus-sub-heading {
     font-size: 36px; /* Overrides 40px from 991px block */
     padding-top: 20px ;
   }
-  /* .aboutusimg height: auto is already set */
 }
 
-/* Adjustments for 768px to 799px (was 800px max) */
-/* Note: Screens in this range also get styles from `max-width: 991px` */
 @media (max-width: 799px) and (min-width: 768px) {
   .aboutus-heading,
   .aboutus-sub-heading {
@@ -351,179 +346,261 @@
   }
 }
 
-/* Adjustments for 572px to 767px (was 768px max) */
-/* Note: Screens in this range also get styles from `max-width: 991px` */
 @media (max-width: 767px) and (min-width: 572px) {
+  .aboutus-wrapper {
+    margin-top: -30px; /* Slightly reduce from desktop if needed */
+  }
+
+  .aboutus-section {
+    padding-top: 20px; /* Add some space at the top of the section */
+    padding-bottom: 20px;
+    flex-direction: column; /* Ensure content stacks */
+    min-height: auto; /* Let content dictate height */
+    height: auto;
+  }
+
   .aboutus-heading,
   .aboutus-sub-heading {
-    padding-top: 20px;
-    font-size: 28px; /* Overrides 40px from 991px block */
-    padding: 10px 0; /* Overrides previous paddings, centers text within its own flow if text-align: start/left */
-    text-align: center; /* Explicitly center heading text */
+    font-size: 32px; /* Smaller than desktop, larger than smallest mobile */
+    padding: 15px 10px 5px 10px; /* top | horiz | bottom */
+    text-align: center;
+    margin-top: 0; /* Remove large negative desktop margins */
+    padding-left: 20px; /* Adjust from original */
+    padding-right: 20px;
   }
+  .aboutus-sub-heading {
+    font-size: 28px;
+    padding-top: 5px;
+    padding-left: 20px; /* Adjust from original */
+    padding-right: 20px;
+  }
+
   .aboutusimg {
-    /* width: 100%; height: auto; already set */
-    margin-left: 0; /* Ensure no negative margin */
+    width: 90%; /* Not full width, but substantial */
+    max-width: 500px; /* Max width for this range */
+    height: auto;
+    margin: 20px auto; /* Center it and add vertical margin */
+    display: block;
   }
-  .aboutusbody, /* Target both, assuming .aboutus-body is distinct */
-  .aboutus-body {
-    font-size: 16px; /* Overrides 18px from 991px block */
+
+  .aboutusbody,
+  .aboutus-body { /* Assuming .aboutus-body is distinct */
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 0 25px; /* Horizontal padding */
+    margin: 0;
+    text-align: left; /* Or 'justify' */
   }
+
   .aboutus-details {
-    padding-left: 0; /* Center content */
+    padding: 0 20px; /* Consistent padding */
+    text-align: center; /* Center content within details */
+    margin-top: 20px;
   }
-  .about-title {
-    font-size: 20px;
-    padding: 0; /* Reset padding */
-    padding-top: 20px; /* Add some top padding if needed */
-  }
+
   .about-first-title {
-    font-size: 20px;
-    padding-top: 100px; /* Reduced padding */
+    font-size: 24px;
+    padding-top: 30px; /* Reduced significantly */
+    margin-top: 0;
   }
+
+  .about-title {
+    font-size: 24px;
+    padding-top: 25px;
+  }
+
   .about-text {
-    font-size: 14px;
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 1.6;
   }
 }
 
 /* Adjustments for 480px to 571px */
 /* Note: Screens in this range also get styles from `max-width: 991px` and potentially from `max-width: 767px` if not overridden */
 @media (max-width: 571px) and (min-width: 480px) {
+  .aboutus-wrapper {
+    margin-top: -30px; /* Align with top if nav is fixed */
+  }
+  .aboutus-section {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* Other properties like flex-direction inherited */
+  }
+
   .aboutus-heading,
   .aboutus-sub-heading {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 24px; /* Overrides 28px from 767px block */
-    padding-left: 0; /* Ensure centering */
-  }
-  .aboutusimg {
-    /* width: 100%; height: auto; margin-left: 0; already set */
-  }
-  .aboutusbody,
-  .aboutus-body {
-    font-size: 14px; /* Overrides 16px from 767px block */
-  }
-  .about-title {
-    font-size: 20px;
-    padding: 0;
-    padding-top: 15px;
-  }
-  .about-first-title {
-    font-size: 20px;
-    padding-top: 110px; /* Adjust as needed */
-  }
-  .about-text {
-    font-size: 14px;
-  }
-}
-
-/* General adjustments for screens up to 479px */
-/* Note: Screens in this range also get styles from `max-width: 991px`, `max-width: 767px` etc. if not overridden here */
-@media (max-width: 479px) {
-  .aboutus-section {
-    height: 130vh; /* Specific height */
-  }
-  .aboutus-heading,
-  .aboutus-sub-heading {
-    margin-top: -110px; /* This is a large negative margin */
-    font-size: 24px; /* Consistent with 480-571px range */
-    padding-left: 0px;
+    /* If these are the large headings from desktop, they might be too much.
+       Consider hiding them (display: none;) if the layout from your
+       image (image first, then body text) is preferred.
+       If shown, make them much smaller: */
+    font-size: 26px;
+    padding: 10px 15px 5px 15px;
+    margin-top: 0; /* CRITICAL: Remove negative margin */
     text-align: center;
   }
-  .aboutusimg {
-    /* width: 100%; height: auto; margin-left: 0; already set */
-    /* margin-left: -6px; /* Small negative margin, check if needed */
-  }
-  .aboutusbody,
-  .aboutus-body {
-    font-size: 16px; /* Slightly larger than 480-571px, check if intentional */
-    line-height: 24px;
-    padding: 5px 12px; /* Specific padding */
-  }
-  .aboutus-details {
-    padding-left: 0;
-    text-align: center;
-  }
-  .about-title{
-    font-size: 18px;
-    padding: 0;
-    padding-top: 10px;
-  }
-  .about-first-title {
-    padding-top: 130px;
-    font-size: 18px;
-  }
-  .about-text {
-    font-size: 14px;
-  }
-}
-
-/* Adjustments for screens up to 360px (very small screens) */
-/* Note: Screens in this range also get styles from `max-width: 479px` if not overridden */
-@media (max-width: 360px) {
-  .aboutus-section {
-    height: 150vh; /* Overrides 130vh from 479px block */
-  }
-  /* Heading, image, body styles are mostly inherited from max-width: 479px
-     and seem to be what was intended by the removed min-width: 320px block.
-     Add specific overrides if needed below. */
-
-  /* Example: If font size needs to be different from 24px set in 479px block */
- 
-  .aboutus-heading,
   .aboutus-sub-heading {
     font-size: 22px;
+    padding-top: 0;
   }
- 
+
+  .aboutusimg {
+    width: 100%; /* Full width */
+    height: auto;
+    margin: 0 0 20px 0; /* No horizontal margin, space below */
+  }
+
+  .aboutusbody,
+  .aboutus-body {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 20px; /* Consistent horizontal padding */
+    text-align: left; /* As per your image */
+  }
+  .aboutusbody .highlight-text { /* For "Le Bestow" in orange */
+    color: #FF8600;
+    font-weight: bold;
+  }
+
+  /* Stats Section (as per your image) */
+  .aboutus-stats-container {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .stat-item { text-align: center; }
+  .stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FF8600;
+    margin: 0 0 3px 0;
+  }
+  .stat-label {
+    font-size: 14px;
+    color: #fff; /* Assuming white text on black section */
+    margin: 0;
+  }
+
+
+  .aboutus-details {
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+
+  .about-first-title {
+    font-size: 22px;
+    padding-top: 40px; /* Reduced from 90px */
+  }
+
+  .about-title {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    padding: 0 10px;
+  }
 }
 
 /*
-    REMOVED THE FOLLOWING BLOCK as its styles are largely covered by max-width: 360px
-    and min-width: 320px would incorrectly apply to all larger screens.
-
-@media (min-width: 320px) {
+   Styles for screens up to 479px (covers most small to medium smartphones)
+   These styles will apply to anything 479px and below, overriding
+   the 480px-571px styles where they conflict.
+*/
+@media (max-width: 479px) {
   .aboutus-section {
-    height: 150vh;
+    /* height: 130vh; /* From your snippet - be cautious with fixed vh */
+    min-height: auto; /* Prefer auto height */
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-    .aboutus-heading,
-    .aboutus-sub-heading {
-      font-size: 24px;
-      padding-left: 0px;
-      text-align: center;
-    }
 
-    .aboutusimg {
-      width: 100%;
-      height: auto;
-      margin-left: -6px;
-    }
+  .aboutus-heading,
+  .aboutus-sub-heading {
+    font-size: 24px;
+    padding: 10px 10px 5px 10px;
+    margin-top: 0; /* CRITICAL */
+    /* If you want to hide these to match the screenshot more closely: */
+    /* display: none; */
+  }
+  .aboutus-sub-heading {
+    font-size: 20px;
+  }
 
-    .aboutusbody
-    .aboutus-body {
-      font-size: 16px;
-      line-height: 24px;
-      padding: 5px 12px;
-    }
+  /* .aboutusimg width 100% inherited */
+  .aboutusimg {
+    margin-bottom: 15px;
+  }
 
-    .aboutus-details {
-      padding-left: 0;
-      text-align: center;
-    }
+  .aboutusbody,
+  .aboutus-body {
+    font-size: 14px; /* Slightly smaller */
+    line-height: 1.5;
+    padding: 0 15px;
+  }
 
-    .about-title{
-        font-size: 18px;
-        padding: 0;
-    }
-    .about-first-title {
-        padding-top: 130px;
-        font-size: 18px;
-    }
+  .stat-number { font-size: 30px; }
+  .stat-label { font-size: 13px; }
 
-    .about-text {
-      font-size: 14px;
-    }
+
+  .aboutus-details {
+    padding: 0 10px;
+    margin-top: 15px;
+  }
+
+  .about-first-title {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .about-title {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .about-text {
+    font-size: 13px;
+  }
 }
 
+@media (max-width: 360px) {
+  .aboutus-section {
+    height: 120vh; /* Even taller section for very small screens */
+  }
+
+  .aboutus-heading,
+  .aboutus-sub-heading {
+    font-size: 20px; /* Further reduce font size */
+    margin-top: -90px; /* Potentially reduce negative margin if too aggressive */
+  }
+
+  .aboutusbody,
+  .aboutus-body {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 10px; /* Adjust padding for narrow screens */
+  }
+
+  .about-first-title {
+    font-size: 16px;
+    padding-top: 120px;
+  }
+
+  .about-title {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .about-text {
+    font-size: 13px;
+  }
+}
 /* founder section */
 
 /* 1284px and below */
