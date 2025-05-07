@@ -500,13 +500,13 @@
       font-size: 14px;
     }
 }
-@media (max-width: 380px) {
+@media (max-width: 360px) {
   .aboutus-section {
     height: 140vh;
   }
     .aboutus-heading,
     .aboutus-sub-heading {
-    padding-top: 40px;
+    padding-top: 60px;
       font-size: 24px;
       padding-left: 0px;
       text-align: center;

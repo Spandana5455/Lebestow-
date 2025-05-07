@@ -890,6 +890,50 @@
         margin-top: -30px;
     }
   }
+
+  @media (max-width: 480px) and (min-width: 381px) {
+    .select-section {
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .explorefloors-head,
+    .propertyrules-heading,
+    .ourvisuals-heading {
+      font-size: 24px;
+    }
+  
+    .explorefloors-body {
+      font-size: 16px;
+    }
+  
+    .select-floor {
+      width: 100%;
+      font-size: 16px;
+    }
+    .photo-custom {
+      background-color: #FF8600;
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      border: #FF8600;
+  }
+  
+    .table-titles th,
+    .table-body td {
+      font-size: 14px;
+    }
+  
+    .airabhuvan-details {
+      padding: 6px 40px;
+    }
+    .propertyrules-img {
+        width: 85%;
+        margin-left: 40px;
+        margin-top: -30px;
+    }
+  }
   
   /* 380px and below */
   @media (max-width: 380px) {

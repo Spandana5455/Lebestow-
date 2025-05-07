@@ -14,8 +14,8 @@ import t9 from './images/t9.png';
 
 
 const testimonials = [
-  { name: "Hema", role: "Customer", review: "Lebstow made my Hyderabad experience seamless. Great food, reliable Wi-Fi, and awesome people.", image: t1, rating: 5 },
-  { name: "Vamshi", role: "Customer", review: "A perfect setup for students like me. I never felt alone here.", image: t2, rating: 5 },
+  { name: "Hema", role: "Customer", review: "Lebestow made my Hyderabad experience seamless. Great food, reliable Wi-Fi, and awesome people.", image: t1, rating: 5 },
+  { name: "Vamsi", role: "Customer", review: "A perfect setup for students like me. I never felt alone here.", image: t2, rating: 5 },
   { name: "Krishna Priya", role: "Customer", review: "Best decision I made clean rooms, kind staff, and community vibes.", image: t3, rating: 5 },
   { name: "Sai", role: "Customer", review: "Staying in Hyderabad felt super easy thanks to Lebstow. The food was delicious, the Wi-Fi was always reliable, and the people were genuinely welcoming. It felt like a second home.", image: t4, rating: 4 },
   { name: "Madhuri", role: "Customer", review: "Lebstow took care of everything! I didn't have to worry about food or internet, and the people there were so kind. Perfect for anyone new to the city.", image: t5, rating: 5 },
@@ -53,7 +53,7 @@ const Testimonials = () => {
       <Container>
         <h2 className="text-center mb-5 testimonials-head">Hear <span className="testimonials-head-two">From Our Residents</span></h2>
 
-        <Carousel interval={3000} indicators={false} controls={true}>
+        <Carousel interval={1000} indicators={false} controls={true}>
           {groupedTestimonials.map((group, idx) => (
             <Carousel.Item key={idx}>
               <Row className="justify-content-center">
