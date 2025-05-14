@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -26,15 +26,21 @@ import Bhuvan from "./Bhuvan";
 import Casa from "./Casa";
 import D from "./D";
 import Bookyourgame from "./Bookyourgame";
+import Whatsapp from "./Whatsapp";
+import Cafewhatsapp from "./Cafewhatsapp";
 
 const App = () => {
+  const location = useLocation();
+
   return (
-    <Router>
-       <ScrollTop />
-      <div>
-        <Navbar />
-        <Container className="my-4">
-          <Routes>
+    <>
+      <ScrollTop />
+      <Whatsapp />
+      {location.pathname === "/zones/cafe" && <Cafewhatsapp />}
+      
+      <Navbar />
+      <Container className="my-4">
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/whychooselebestow" element={<Whychooselebestow />} />
           <Route path="/ourservices" element={<Ourservices />} />
@@ -53,15 +59,22 @@ const App = () => {
           <Route path="/explore/aira" element={<Aira />} />
           <Route path="/explore/bhuvan" element={<Bhuvan />} />
           <Route path="/explore/casa" element={<Casa />} />
-          <Route path="/explore/d" element={<D/>} />
+          <Route path="/explore/d" element={<D />} />
           <Route path="/zones/gaming/bookyourgame" element={<Bookyourgame />} />
-          </Routes>
-        </Container>
-        <Footer />
-        
-      </div>
-    </Router>
+          <Route path="*" element={<h2>404 - Page Not Found</h2>} />
+        </Routes>
+      </Container>
+      <Footer />
+    </>
   );
 };
 
-export default App;
+
+const AppWithRouter = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default AppWithRouter;
+

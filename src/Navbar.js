@@ -61,7 +61,7 @@ const Navbar = () => {
                   <li><Link className="dropdown-item" to="/explore/aira" onClick={closeMenu}>Co-living Aira</Link></li>
                   <li><Link className="dropdown-item" to="/explore/bhuvan" onClick={closeMenu}>Co-living Bhuvan</Link></li>
                   <li><Link className="dropdown-item" to="/explore/casa" onClick={closeMenu}>Casa</Link></li>
-                  <li><Link className="dropdown-item" to="/explore/d" onClick={closeMenu}>D</Link></li>
+                  <li><Link className="dropdown-item" to="/explore/d" onClick={closeMenu}>Dhrithi</Link></li>
                 </ul>
               </li>
 

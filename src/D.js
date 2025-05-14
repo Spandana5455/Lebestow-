@@ -244,7 +244,7 @@ const D = () => {
       <Container fluid className="text-dark py-4 px-5 d-section">
         <Row className='text-start'>
           <Col>
-            <h2 className='d-lebestow-heading'>D </h2>
+            <h2 className='d-lebestow-heading'>Dhrithi </h2>
             <h2><span className='d-lebestow-sub-heading-two'>Women's Pg</span></h2>
             <div>
               <p className='d-lebestow-location'><i className="bi bi-geo-alt-fill"></i> Kondapur <br/>  Hyderabad</p>
