@@ -540,7 +540,7 @@
     .offer-subheading,
     .offer-percentage {
       font-size: 28px;
-      margin-left: -10px;
+      margin-left: -60px;
     }
   
     .offer-note {
@@ -571,6 +571,9 @@
     .slide-card:hover .image-container,
     .slide-card:hover .text-container {
       width: 100%;
+    }
+    .catering-section {
+      margin-left: -10px;
     }
   }
   
