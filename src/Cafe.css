@@ -106,7 +106,7 @@
 }
   
 .cafeteria-section {
-    background-color: #FF8E00;
+    background-color: #000000B2;
     width: 100vw; 
     margin-left: calc(-50vw + 50%);
 }
@@ -115,7 +115,7 @@
     font-size: 69.22px;
     font-weight: 500;
     font-style: italic;
-    color: #000;
+    color: white;
 }
 
 .lebestow-heading4 {
@@ -134,10 +134,10 @@
 }
 
 .lebestow-menu-button {
-    background-color: #000000BF;
+    background-color: #FF8600;
     color: #FFFFFF;
     border-radius: 30px;
-    border: 1px solid #000000BF;
+    border: 1px solid #FF8600;
     padding: 8px 25px;
 }
 
@@ -198,7 +198,7 @@
     padding-left: 100px;
     padding-top: 50px;
 }
-.catering-section {
+/* .catering-section {
     background-color: #FF860040;
     width: 100vw; 
     margin-left: calc(-50vw + 50%);
@@ -291,7 +291,7 @@
   
 .right-arrow {
     right: 10px;
-}
+} */
   
 .cafeteria-heading {
     font-size: 40px;
@@ -307,7 +307,72 @@
     border-radius: 30px;
 }
 
+.cafe-event-section {
+    background-image: url('./images/cafeeventbg.png');
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    height: 60vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
 
+.cafe-event-heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  color: #000;
+  margin-top: 40px;
+}
+
+.cafe-event-subheading {
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+.cafe-event-body {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: #000;
+}
+
+.cafe-event-points {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  background:linear-gradient(to right, #000000,#666666);
+  border-radius: 50px 0 0 50px;
+  width: 800px;
+  height: 60px;
+  padding: 10px 20px;
+}
+
+.cafe-event-point-two {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  padding-left: 30px;
+}
+.cafe-event-knowmore {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+  border-radius: 30px;
+  border: #000;
+  padding: 8px 25px;
+  margin-top: 80px;
+  margin-left: 450px;
+}
 
 @media (max-width: 1199px) {
     .lebestowcafe-heading1 {
@@ -572,10 +637,333 @@
     .slide-card:hover .text-container {
       width: 100%;
     }
-    .catering-section {
-      margin-left: -10px;
-    }
   }
+
+  /* 1284px and above */
+@media (min-width: 1284px) {
+  .cafe-event-heading {
+    font-size: 28px;
+  }
+
+  .cafe-event-subheading {
+    font-size: 44px;
+  }
+
+  .cafe-event-body, .cafe-event-points, .cafe-event-point-two {
+    font-size: 26px;
+  }
+
+  .cafe-event-points {
+    width: 800px;
+  }
+
+  .cafe-event-knowmore {
+    margin-left: 350px;
+  }
+}
+
+/* 1199px - 1283px */
+@media (max-width: 1283px) and (min-width: 1200px) {
+  .cafe-event-subheading {
+    font-size: 38px;
+  }
+
+  .cafe-event-points {
+    width: 700px;
+  }
+
+  .cafe-event-knowmore {
+    margin-left: 350px;
+  }
+}
+
+/* 991px - 1199px */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .cafe-event-subheading {
+    font-size: 34px;
+  }
+
+  .cafe-event-points {
+    width: 550px;
+  }
+  .cafe-event-point-two {
+    font-size: 22px;
+    margin-left: -30px;
+  }
+
+  .cafe-event-knowmore {
+    margin-left: 250px;
+  }
+}
+
+/* 800px - 990px */
+@media (max-width: 990px) and (min-width: 801px) {
+  .cafe-event-subheading {
+    font-size: 30px;
+     margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .cafe-event-heading{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-right: -50px;
+    margin-top: 45px;
+  }
+  .cafe-event-body {
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: -50px;
+    margin-top: 30px;
+  }
+
+  .cafe-event-points {
+    width: 470px;
+    font-size: 20px;
+    height: 60px;
+    padding: px 8px;
+    margin-left: -30px;
+    margin-top: 40px;
+  }
+  .cafe-event-point-two {
+    font-size: 20px;
+    margin-left: -30px;
+  }
+
+  .cafe-event-knowmore {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+}
+
+/* 768px - 800px */
+@media (max-width: 800px) and (min-width: 768px) {
+  .cafe-event-section {
+    background-image: url('./images/cafeeventbg.png');
+    height: 40vh;
+    width: 120%;
+    display: flex;               
+  }
+  .cafe-event-subheading {
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-heading{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-right: -50px;
+    margin-top: 5px;
+  }
+  .cafe-event-body {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+
+  .cafe-event-points {
+    width: 370px;
+    font-size: 18px;
+    height: 70px;
+    padding: px 8px;
+    margin-left: 0px;
+  }
+  .cafe-event-point-two {
+    font-size: 18px;
+    margin-left: -20px;
+  }
+
+  .cafe-event-knowmore {
+    font-size: 18px;
+    margin-left: 150px;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+}
+
+/* 572px - 768px */
+@media (max-width: 767px) and (min-width: 572px) {
+  .cafe-event-section {
+    background-image: url('./images/cafeeventbg.png');
+    height: 30vh;
+    width: 130%;
+    display: flex;               
+  }
+  .cafe-event-subheading {
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-heading{
+    font-size: 20px;
+    margin-left: 350px;
+    margin-right: -50px;
+    margin-top: 5px;
+  }
+  .cafe-event-body {
+    font-size: 18px;
+    margin-left: 350px;
+    margin-right: -130px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-points {
+    width: 350px;
+    font-size: 18px;
+    height: 60px;
+    padding: 5px 8px;
+    margin-left: 350px;
+  }
+  .cafe-event-point-two {
+    font-size: 18px;
+    margin-left: -20px;
+  }
+
+  .cafe-event-knowmore {
+    font-size: 18px;
+    margin-left: 450px;
+    margin-right: -90px;
+    margin-top: -30px;
+  }
+}
+
+/* 480px - 571px */
+@media (max-width: 571px) and (min-width: 480px) {
+ .cafe-event-section {
+    background-image: url('./images/cafeeventbg.png');
+    height: 30vh;
+    width: 100%;
+    display: flex;               
+  }
+  .cafe-event-subheading {
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-heading{
+    font-size: 16px;
+    margin-left: 250px;
+    margin-top: 5px;
+  }
+  .cafe-event-body {
+    font-size: 16px;
+    margin-left: 250px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-points {
+    width: 300px;
+    font-size: 14px;
+    height: 60px;
+    padding: 8px 8px;
+    margin-left: 250px;
+  }
+  .cafe-event-point-two {
+    font-size: 14px;
+    margin-left: -30px;
+  }
+
+  .cafe-event-knowmore {
+    font-size: 12px;
+    margin-left: 400px;
+    margin-top: 0px;
+  }
+}
+
+/* 380px - 480px */
+@media (max-width: 479px) and (min-width: 380px) {
+ .cafe-event-section {
+    background-image: url('./images/cafeeventbg.png');
+    height: 20vh;
+    width: 100%;
+    display: flex;               
+  }
+  .cafe-event-subheading {
+    font-size: 14px;
+    margin-left: 200px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-heading{
+    font-size: 10px;
+    margin-left: 200px;
+    margin-top: 5px;
+  }
+  .cafe-event-body {
+    font-size: 10px;
+    margin-left: 200px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-points {
+    width: 220px;
+    font-size: 10px;
+    height: 40px;
+    padding: 5px 8px;
+    margin-left: 200px;
+  }
+  .cafe-event-point-two {
+    font-size: 10px;
+    margin-left: -20px;
+  }
+
+  .cafe-event-knowmore {
+    font-size: 8px;
+    margin-left: 300px;
+    margin-top: 0px;
+  }
+}
+
+/* 275px - 380px */
+@media (max-width: 379px) and (min-width: 275px) {
+  .cafe-event-section {
+    background-image: url('./images/cafeeventbg.png');
+    height: 20vh;
+    width: 100%;
+    display: flex;               
+  }
+  .cafe-event-subheading {
+    font-size: 14px;
+    margin-left: 150px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-heading{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 5px;
+  }
+  .cafe-event-body {
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: -10px;
+  }
+
+  .cafe-event-points {
+    width: 180px;
+    font-size: 10px;
+    height: 40px;
+    padding: 5px 8px;
+    margin-left: 140px;
+  }
+  .cafe-event-point-two {
+    font-size: 10px;
+    margin-left: -30px;
+  }
+
+  .cafe-event-knowmore {
+    font-size: 8px;
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+}
+
   
   
   

@@ -16,6 +16,7 @@ import Teamsection from "./Teamsection";
 import Cafe from "./Cafe";
 import Gaming from "./Gaming";
 import Coliving from "./Coliving";
+import Mealservice from "./Mealservice";
 import Menu from "./Menu";
 import Cafecontactus from "./Cafecontactus";
 import Privacypolicy from "./Privacypolicy";
@@ -50,8 +51,9 @@ const App = () => {
           <Route path="/zones/cafe" element={<Cafe />} />
           <Route path="/zones/gaming" element={<Gaming />} />
           <Route path="/zones/co-living" element={<Coliving />} />
+          <Route path="/zones/mealservice" element={<Mealservice />} />
           <Route path="/zones/cafe/menu" element={<Menu />} />
-          <Route path="/zones/cafe/Cafecontactus" element={<Cafecontactus />} />
+          <Route path="/zones/mealservice/Cafecontactus" element={<Cafecontactus />} />
           <Route path="/privacy-policy" element={<Privacypolicy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/cancellation" element={<Cancellationpolicy />} />

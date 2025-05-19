@@ -1,6 +1,6 @@
-import React , { useState }from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import './Cafe.css';
 import c1 from './images/c1.png';
 import c2 from './images/c2.png';
@@ -19,9 +19,7 @@ import gallery2 from './images/gallery2.png';
 import gallery3 from './images/gallery3.png';
 import gallery4 from './images/gallery4.png';
 import gallery5 from './images/gallery5.png';
-import birthdays from './images/birthdays.png';
-import events from './images/events.png';
-import privatedinner from './images/privatedinner.png';
+
 
 const FoodItem = ({ src, alt }) => (
     <div className="food-item">
@@ -78,65 +76,65 @@ const contentData = [
   }
 ];
 
-const cardData = [
-  {
-    category: 'Birthdays',
-    title: (
-      <>
-        Celebrate 
-        <br/>Effortlessly With 
-        <br />Cafeteria Style Comfort
-      </>
-    ),
-    description:
-      'Our roots in community dining make us experts in creating warm, memorable birthday spreads. From themed treats to live counters, we bring the comfort of co-living cuisine to your party—wherever its hosted',
-    image: birthdays,
-  },
-  {
-    category: 'Coporate Events',
-    title: (
-      <>
-        Fuel Your  
-        <br/>Team With Flavors
-        <br />That Work
-      </>
-    ),
-    description:
-      'Designed for focus, energy, and flow—our catering brings co-living efficiency to your boardroom. From casual brainstorms to formal seminars, we serve professionally crafted meals that impress without the fuss.',
-    image: events,
-  },
-  {
-    category: 'Private Dinners',
-    title: (
-      <>
-        Bringing
-        <br/>The Coziness Of 
-        <br />Home Dining To You
-      </>
-    ),
-    description:
-      'chef-crafted menus with the intimate touch of co-living hospitality. Whether its a date night or a private gathering, our catering transforms your space into a warm, restaurant-like setting.',
-    image: privatedinner,
-  },
-];
+// const cardData = [
+//   {
+//     category: 'Birthdays',
+//     title: (
+//       <>
+//         Celebrate 
+//         <br/>Effortlessly With 
+//         <br />Cafeteria Style Comfort
+//       </>
+//     ),
+//     description:
+//       'Our roots in community dining make us experts in creating warm, memorable birthday spreads. From themed treats to live counters, we bring the comfort of co-living cuisine to your party—wherever its hosted',
+//     image: birthdays,
+//   },
+//   {
+//     category: 'Coporate Events',
+//     title: (
+//       <>
+//         Fuel Your  
+//         <br/>Team With Flavors
+//         <br />That Work
+//       </>
+//     ),
+//     description:
+//       'Designed for focus, energy, and flow—our catering brings co-living efficiency to your boardroom. From casual brainstorms to formal seminars, we serve professionally crafted meals that impress without the fuss.',
+//     image: events,
+//   },
+//   {
+//     category: 'Private Dinners',
+//     title: (
+//       <>
+//         Bringing
+//         <br/>The Coziness Of 
+//         <br />Home Dining To You
+//       </>
+//     ),
+//     description:
+//       'chef-crafted menus with the intimate touch of co-living hospitality. Whether its a date night or a private gathering, our catering transforms your space into a warm, restaurant-like setting.',
+//     image: privatedinner,
+//   },
+// ];
 
 
 const Cafe = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  // const [activeIndex, setActiveIndex] = useState(0);
 
-  const handlePrev = () => {
-    setActiveIndex((prevIndex) =>
-      prevIndex === 0 ? cardData.length - 1 : prevIndex - 1
-    );
-  };
+  // const handlePrev = () => {
+  //   setActiveIndex((prevIndex) =>
+  //     prevIndex === 0 ? cardData.length - 1 : prevIndex - 1
+  //   );
+  // };
 
-  const handleNext = () => {
-    setActiveIndex((prevIndex) =>
-      prevIndex === cardData.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+  // const handleNext = () => {
+  //   setActiveIndex((prevIndex) =>
+  //     prevIndex === cardData.length - 1 ? 0 : prevIndex + 1
+  //   );
+  // };
 
-  const { category, title, description, image } = cardData[activeIndex];
+  // const { category, title, description, image } = cardData[activeIndex];
 
   return (
     <>
@@ -173,6 +171,22 @@ const Cafe = () => {
         ))}
       </Row>
     </Container>
+
+    <div className='cafe-event-section'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-6'></div>
+          <div className='col-md-6'>
+            <h5 className='cafe-event-heading'> Planning an Event ?</h5>
+            <h3 className='cafe-event-subheading'>Let Us Cater It!</h3>
+            <p className='cafe-event-body'>Delicious, customizable catering for all occasions - from small gatherings to grand celebrations.</p>
+            <p className='cafe-event-points'> • Freshly made dishes <span className='cafe-event-point-two'> • Flexible menu options</span></p>
+            <button className='cafe-event-knowmore'>Know more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br/>
 
       <div className="cafeteria-section">
         <div className="container">
@@ -216,7 +230,7 @@ const Cafe = () => {
         </div>
     </div>
 
-    <div className="py-5">
+    {/* <div className="py-5">
       <h2 className="text-center mb-6 catering-heading">Catering Services</h2>
       <div className='catering-section'>
       <Container>
@@ -249,9 +263,9 @@ const Cafe = () => {
         </div>
       </Container>
       </div>
-    </div>
+    </div> */}
 
-    <div className="container">
+    <div className="container pt-4">
       <h2 className="mb-4 cafeteria-heading text-center">Cafeteria</h2>
       <div className="row g-3">
         {/* Left column with top large image and two small below */}

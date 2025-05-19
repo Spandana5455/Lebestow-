@@ -1,0 +1,607 @@
+.meal-service-section {
+    background-image: url('./images/mealservicebg.png');
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: -30px;
+}
+
+.meal-service-heading {
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    margin-top: -90px;
+}
+
+.meal-service-subheading {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.meal-service-body {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.meal-service-line {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF8600;
+}
+
+.meal-service-button {
+    background-color: #FF8600;
+    border: #FF8600;
+    color: #fff;
+    padding: 12px 75px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.meal-cateringservice-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF8600;
+    text-align: center;
+}
+
+.meal-cateringservice-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right,#FF8600, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 10px;
+}
+
+.mealserviceunderline {
+    margin-left: 440px;
+}
+
+.gradient-bgcard {
+  background: linear-gradient(to bottom, #FF8600, #999999);
+  border-radius: 50px;
+}
+
+.meal-cateringservice-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.meal-cateringservice-description {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.mealservice-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF8600;
+    text-align: center;
+}
+
+.mealservice-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #FF8600, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.mealserviceunderline-2 {
+    margin-left: 440px;
+    margin-top: -10px;
+}
+
+.mealservice-buttons {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #FF8600;
+    color: #000;
+}
+
+.mealfoodmenu-custom {
+    background-color: #FF8E00; 
+    color: white;
+    border: #FF8E00;
+    border-radius: 80px;
+    padding: 6px 20px;
+}
+
+.mealfoodmenu-outline-custom {
+    border: 1px solid #FF8E00;
+    color: #FF8E00;
+    background-color: transparent;
+    border-radius: 80px;
+    padding: 6px 20px;
+}
+
+.mealfoodmenu-custom:hover {
+    background-color: #FF8E00; 
+    color: white;
+    border: #FF8E00;
+}
+
+.mealfoodmenu-outline-custom:hover {
+    background-color: #FF8E00;
+    color: white;
+    border: #FF8E00;
+}
+.mealfoodmenu-custom:focus,
+.mealfoodmenu-custom:active,
+.mealfoodmenu-custom:focus:active,
+.mealfoodmenu-outline-custom:focus,
+.mealfoodmenu-outline-custom:active,
+.mealfoodmenu-outline-custom:focus:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #FF8E00 !important; 
+  color: white !important;
+  border-color: #FF8E00 !important;
+}
+
+.mealservice-card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px #00000040;
+    height: 400px;
+}
+
+.mealservice-img {
+    border-radius: 20px 20px 0 0px ;
+}
+.mealservice-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.mealservice-description {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    line-height: 30px;
+}
+
+.pricingplan-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF8600;
+    text-align: center;
+}
+
+.pricingplan-heading-two {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #FF8600, #666666);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.pricingplan-body {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.pricingplan-star {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FF0000;
+}
+
+.mealpricing-custom {
+  background-color: #2C2C2C;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+
+.mealpricing-outline-custom {
+  background-color: #2C2C2C;
+  color: #fff;
+  border: 1px solid #FF8600;
+  border-radius: 0;
+}
+
+.mealpricing-custom:hover {
+    background-color: #2C2C2C; 
+    color: white;
+    border: #FF8600;
+}
+
+.mealpricing-outline-custom:hover {
+    background-color: #2C2C2C;
+    color: white;
+    border: #FF8600;
+}
+.mealpricing-custom:focus,
+.mealpricing-custom:active,
+.mealpricing-custom:focus:active,
+.mealpricing-outline-custom:focus,
+.mealpricing-outline-custom:active,
+.mealpricing-outline-custom:focus:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #FF8600 !important; 
+  color: white !important;
+  border-color: #FF8600 !important;
+}
+
+
+/* For screens 1199px to 1283px (and below unless overridden) */
+/* Effectively @media (max-width: 1283px) */
+@media (max-width: 1283px) {
+    .meal-service-section {
+        margin-top: -30px;
+    }
+    .meal-service-heading {
+        font-size: 44px;
+        margin-top: -70px;
+    }
+    .meal-service-subheading,
+    .meal-service-body,
+    .meal-service-line {
+        font-size: 22px;
+    }
+    .meal-service-button {
+        padding: 12px 65px;
+        font-size: 19px;
+    }
+    .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 38px;
+    }
+}
+
+/* For screens 991px to 1198px (and below unless overridden) */
+/* Effectively @media (max-width: 1199px) */
+@media (max-width: 1199px) {
+    .meal-service-section {
+        height: auto; /* Allow content to define height */
+        min-height: 80vh;
+        padding: 60px 0; /* Add some padding */
+        margin-top: -30px; /* Reset negative margin if it causes issues with responsive nav */
+    }
+    .meal-service-heading {
+        font-size: 40px;
+        margin-top: 0; /* Reset negative margin */
+    }
+    .meal-service-subheading,
+    .meal-service-body,
+    .meal-service-line {
+        font-size: 20px;
+    }
+    .meal-service-button {
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+    .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 34px;
+    }
+    .meal-cateringservice-title {
+        font-size: 19px;
+        padding-top: 25px;
+    }
+    .meal-cateringservice-description {
+        font-size: 15px;
+    }
+    .mealservice-card {
+        height: auto; /* Let content dictate height */
+        min-height: 380px; /* Optional: ensure a minimum height */
+    }
+     .pricingplan-body {
+        font-size: 15px;
+        padding-top: 30px;
+    }
+}
+
+/* For screens 800px to 990px (and below unless overridden) */
+/* Effectively @media (max-width: 990px) */
+@media (max-width: 990px) {
+    .meal-service-section {
+        margin-top: -30px;
+    }
+    .meal-service-heading {
+        font-size: 36px;
+    }
+    .meal-service-subheading,
+    .meal-service-body,
+    .meal-service-line {
+        font-size: 18px;
+    }
+     .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 32px;
+    }
+    .mealfoodmenu-custom,
+    .mealfoodmenu-outline-custom {
+        padding: 6px 18px;
+        font-size: 13px; /* Adjust button font size if text is long */
+    }
+    .d-flex.justify-content-center.flex-wrap.gap-0.column-gap-4 { /* Target specific button group */
+        column-gap: 1rem !important; /* Reduce gap between buttons when wrapped */
+        row-gap: 0.5rem !important;
+    }
+}
+
+
+/* For screens 768px to 799px (and below) - Effectively @media (max-width: 799px) */
+/* This also covers Bootstrap's 'md' breakpoint just below 768px */
+@media (max-width: 799px) {
+    .meal-service-section {
+        margin-top: -30px;
+    }
+    .meal-service-heading {
+        font-size: 32px;
+    }
+    .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 30px;
+    }
+    .gradient-bgcard {
+        border-radius: 40px;
+    }
+    .meal-cateringservice-title {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+     .mealservice-card {
+        min-height: 360px;
+    }
+}
+
+/* For screens 572px to 767px (and below) - Effectively @media (max-width: 767px) */
+/* This is Bootstrap's 'sm' breakpoint range */
+@media (max-width: 767px) {
+    .meal-service-section {
+        min-height: 60vh;
+        padding: 40px 15px; /* Adjust padding for smaller screens */
+        margin-top: -30px;
+    }
+    .meal-service-heading {
+        font-size: 28px;
+    }
+    .meal-service-subheading,
+    .meal-service-body,
+    .meal-service-line {
+        font-size: 16px;
+    }
+    .meal-service-button {
+        padding: 10px 35px;
+        font-size: 16px;
+    }
+    .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 28px;
+    }
+    .mealserviceunderline, .mealserviceunderline-2 {
+        max-width: 250px; /* Reduce underline size */
+    }
+    .mealfoodmenu-custom,
+    .mealfoodmenu-outline-custom {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    .mealservice-title {
+        font-size: 15px;
+    }
+    .mealservice-description {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+    .pricingplan-body {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .table { /* Reduce font size in tables for better readability on small screens */
+        font-size: 0.875rem; /* 14px */
+    }
+    .table th, .table td {
+        padding: 0.5rem; /* Reduce padding in table cells */
+    }
+    /* Make pricing tab buttons stack if needed or just be smaller */
+    .mealpricing-custom, .mealpricing-outline-custom {
+        padding: 8px 10px; /* Adjust padding */
+        font-size: 0.8rem; /* Adjust font size */
+    }
+    /* Ensure button groups wrap nicely */
+    .d-flex.justify-content-center.flex-wrap.gap-0.mb-4.pt-4 .btn { /* Target pricing buttons */
+        margin: 2px; /* Add small margin if gap-0 makes them too close when wrapped */
+    }
+}
+
+/* For screens 480px to 571px (and below) - Effectively @media (max-width: 571px) */
+/* This is for smaller phones, below Bootstrap's 'sm' */
+@media (max-width: 571px) {
+    .meal-service-section {
+        margin-top: -30px;
+    }
+    .meal-service-heading {
+        font-size: 24px;
+    }
+    .meal-service-subheading,
+    .meal-service-body,
+    .meal-service-line {
+        font-size: 15px;
+    }
+    .meal-service-button {
+        padding: 8px 25px;
+        font-size: 15px;
+        width: 90%; /* Make button wider */
+        max-width: 280px; /* But not too wide */
+    }
+    .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 24px;
+    }
+    .gradient-bgcard {
+        border-radius: 30px;
+        padding: 15px; /* Adjust padding inside card */
+    }
+    .meal-cateringservice-title {
+        font-size: 17px;
+        padding-top: 15px;
+    }
+    .meal-cateringservice-description {
+        font-size: 14px;
+    }
+     .mealservice-card {
+        min-height: auto; /* Remove min-height if cards become too tall */
+    }
+    .mealservice-img { /* Accessing inline style requires !important or different approach if not working */
+      /* style={{ height: '200px' ... }} in JSX means this is harder to override */
+      /* If you need to change image height, better to do it via props or remove from inline style */
+    }
+}
+
+/* For screens 380px to 479px (and below) - Effectively @media (max-width: 479px) */
+@media (max-width: 479px) {
+    .meal-service-section {
+        margin-top: -30px;
+    }
+    .meal-service-heading {
+        font-size: 22px;
+    }
+    .meal-service-subheading,
+    .meal-service-body,
+    .meal-service-line {
+        font-size: 14px;
+    }
+    .meal-service-button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 22px;
+    }
+    .mealserviceunderline, .mealserviceunderline-2 {
+        max-width: 200px;
+    }
+    .mealfoodmenu-custom,
+    .mealfoodmenu-outline-custom {
+        padding: 4px 12px;
+        font-size: 11px;
+    }
+    .pricingplan-body {
+        font-size: 13px;
+    }
+     .table {
+        font-size: 0.75rem; /* 12px */
+    }
+    /* Make tab buttons more compact */
+    .mealpricing-custom, .mealpricing-outline-custom {
+        padding: 6px 8px;
+        font-size: 0.75rem;
+    }
+    .d-flex.justify-content-center.flex-wrap.gap-0.column-gap-4 { /* Meal food menu buttons */
+       flex-direction: column; /* Stack them */
+       align-items: center; /* Center them when stacked */
+       gap: 0.5rem !important; /* Add gap between stacked buttons */
+    }
+    .d-flex.justify-content-center.flex-wrap.gap-0.mb-4.pt-4 { /* Pricing tab buttons */
+       flex-direction: column; /* Stack them */
+       align-items: stretch; /* Make buttons full width of their container part */
+       gap: 0.25rem !important;
+    }
+    .d-flex.justify-content-center.flex-wrap.gap-0.mb-4.pt-4 .btn {
+        width: 100%;
+        margin: 2px 0;
+    }
+}
+
+/* For screens 275px to 379px (and below) - Effectively @media (max-width: 379px) */
+@media (max-width: 379px) {
+    .meal-service-section {
+        margin-top: -30px;
+    }
+    .meal-service-heading {
+        font-size: 20px;
+    }
+    .meal-service-subheading,
+    .meal-service-body,
+    .meal-service-line {
+        font-size: 13px;
+    }
+    .meal-service-button {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+    .meal-cateringservice-heading,
+    .meal-cateringservice-heading-two,
+    .mealservice-heading,
+    .mealservice-heading-two,
+    .pricingplan-heading,
+    .pricingplan-heading-two {
+        font-size: 20px;
+    }
+    .meal-cateringservice-title {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .meal-cateringservice-description {
+        font-size: 13px;
+    }
+    .mealservice-title {
+        font-size: 14px;
+    }
+    .mealservice-description {
+        font-size: 10px;
+    }
+    .table {
+        font-size: 0.65rem;
+    }
+}

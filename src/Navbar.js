@@ -78,6 +78,7 @@ const Navbar = () => {
                   <li><Link className="dropdown-item" to="/zones/co-living" onClick={closeMenu}>Co-living</Link></li>
                   <li><Link className="dropdown-item" to="/zones/cafe" onClick={closeMenu}>Cafe</Link></li>
                   <li><Link className="dropdown-item" to="/zones/gaming" onClick={closeMenu}>Gaming</Link></li>
+                  <li><Link className="dropdown-item" to="/zones/mealservice" onClick={closeMenu}>Meal Service</Link></li>
                 </ul>
               </li>
 
