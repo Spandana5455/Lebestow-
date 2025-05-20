@@ -133,8 +133,12 @@ const BookYourGame = () => {
         </p>
 
         <div className="social-icons">
-          <a href="#"><i className="bi bi-instagram"></i></a>
-          <a href="#"><i className="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/lebestowofficial?igsh=MTFxcHFxM3d6amVkcA==" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/share/16NQzeb9Uh/" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-facebook"></i>
+          </a>
         </div>
       </div>
 

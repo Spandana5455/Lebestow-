@@ -497,10 +497,7 @@
      .mealservice-card {
         min-height: auto; /* Remove min-height if cards become too tall */
     }
-    .mealservice-img { /* Accessing inline style requires !important or different approach if not working */
-      /* style={{ height: '200px' ... }} in JSX means this is harder to override */
-      /* If you need to change image height, better to do it via props or remove from inline style */
-    }
+   
 }
 
 /* For screens 380px to 479px (and below) - Effectively @media (max-width: 479px) */

@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Navbar from "./Navbar";
