@@ -66,19 +66,19 @@ const Navbar = () => {
               </li>
 
               {/* Zones Dropdown */}
-              <li className={`nav-item dropdown ${openDropdown === 'zones' ? 'show' : ''}`}>
+              <li className={`nav-item dropdown ${openDropdown === 'facilities' ? 'show' : ''}`}>
                 <span
                   className="nav-link dropdown-toggle"
                   onClick={() => handleDropdownToggle('zones')}
                   role="button"
                 >
-                  Zones
+                  Facilities
                 </span>
-                <ul className={`dropdown-menu ${openDropdown === 'zones' ? 'show' : ''}`}>
-                  <li><Link className="dropdown-item" to="/zones/co-living" onClick={closeMenu}>Co-living</Link></li>
-                  <li><Link className="dropdown-item" to="/zones/cafe" onClick={closeMenu}>Cafe</Link></li>
-                  <li><Link className="dropdown-item" to="/zones/gaming" onClick={closeMenu}>Gaming</Link></li>
-                  <li><Link className="dropdown-item" to="/zones/mealservice" onClick={closeMenu}>Meal Service</Link></li>
+                <ul className={`dropdown-menu ${openDropdown === 'facilities' ? 'show' : ''}`}>
+                  <li><Link className="dropdown-item" to="/facilities/co-living" onClick={closeMenu}>Co-living</Link></li>
+                  <li><Link className="dropdown-item" to="/facilities/cafe" onClick={closeMenu}>Cafe</Link></li>
+                  <li><Link className="dropdown-item" to="/facilities/gaming" onClick={closeMenu}>Gaming</Link></li>
+                  <li><Link className="dropdown-item" to="/facilities/mealservice" onClick={closeMenu}>Meal Service</Link></li>
                 </ul>
               </li>
 

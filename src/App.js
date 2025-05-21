@@ -38,7 +38,7 @@ const App = () => {
     <>
       <ScrollTop />
       <Whatsapp />
-      {location.pathname === "/zones/cafe" && <Cafewhatsapp />}
+      {["/facilities/cafe", "/facilities/gaming", "/facilities/mealservice"].includes(location.pathname) && <Cafewhatsapp />}
       
       <Navbar />
       <Container className="my-4">
@@ -49,12 +49,12 @@ const App = () => {
           <Route path="/contact" element={<Contactus />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/teamsection" element={<Teamsection />} />
-          <Route path="/zones/cafe" element={<Cafe />} />
-          <Route path="/zones/gaming" element={<Gaming />} />
-          <Route path="/zones/co-living" element={<Coliving />} />
-          <Route path="/zones/mealservice" element={<Mealservice />} />
-          <Route path="/zones/cafe/menu" element={<Menu />} />
-          <Route path="/zones/mealservice/Cafecontactus" element={<Cafecontactus />} />
+          <Route path="/facilities/cafe" element={<Cafe />} />
+          <Route path="/facilities/gaming" element={<Gaming />} />
+          <Route path="/facilities/co-living" element={<Coliving />} />
+          <Route path="/facilities/mealservice" element={<Mealservice />} />
+          <Route path="/facilities/cafe/menu" element={<Menu />} />
+          <Route path="/facilities/mealservice/Cafecontactus" element={<Cafecontactus />} />
           <Route path="/privacy-policy" element={<Privacypolicy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/cancellation" element={<Cancellationpolicy />} />
@@ -63,7 +63,7 @@ const App = () => {
           <Route path="/explore/bhuvan" element={<Bhuvan />} />
           <Route path="/explore/casa" element={<Casa />} />
           <Route path="/explore/d" element={<D />} />
-          <Route path="/zones/gaming/bookyourgame" element={<Bookyourgame />} />
+          <Route path="/facilities/gaming/bookyourgame" element={<Bookyourgame />} />
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />
         </Routes>
       </Container>

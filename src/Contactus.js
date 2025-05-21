@@ -63,10 +63,26 @@ const Contactus = () => {
           <Col md={5} className="contact-left">
             <h4 className="contact-info-heading mb-4">Contact Information</h4>
             <br />
-            <div className="info-item"><i className="bi bi-telephone"></i> 9100009659</div>
-            <div className="info-item"><i className="bi bi-envelope"></i> sales.bestowliving@gmail.com</div>
-            <div className="info-item"><i className="bi bi-instagram"></i> lebestowofficial</div>
-            <div className="info-item"><i className="bi bi-facebook"></i> Le Bestow Living</div>
+            <div className="info-item">
+              <a href="tel:9100009059">
+                <i className="bi bi-telephone"></i> 9100009059
+              </a>
+            </div>
+            <div className="info-item">
+              <a href="mailto:operations@lebestow.com">
+                <i className="bi bi-envelope"></i> operations@lebestow.com
+              </a>
+            </div>
+            <div className="info-item">
+              <a href="https://www.instagram.com/lebestowofficial?igsh=MTFxcHFxM3d6amVkcA==" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-instagram"></i> lebestowofficial
+              </a>
+            </div>
+            <div className="info-item">
+              <a href="https://www.facebook.com/share/16NQzeb9Uh/" target="_blank" rel="noopener noreferrer">
+              <i className="bi bi-facebook"></i> Le Bestow Living
+              </a>
+            </div>
           </Col>
         </div>
 

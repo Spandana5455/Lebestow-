@@ -92,6 +92,12 @@
     padding-top: 40px;
 }
 
+.info-item a {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 /* Default adjustments for screens wider than 1284px */
 @media (min-width: 1284px) {
